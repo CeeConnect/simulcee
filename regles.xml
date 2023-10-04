@@ -2199,6 +2199,26 @@
         <description><![CDATA[Coefficient multiplicateur : Nombre d'appartements]]></description>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $.logements]]></expression>
     </regle>
+    <!-- BAR-TH-123v54-2 -->
+    <regle id-fiche="BAR-TH-123v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire : H1]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[6400]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-123v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire : H2]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[5200]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-123v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire : H3]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[3500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-123v54-2" type="montant">
+        <description><![CDATA[Coefficient multiplicateur : Nombre d'appartements]]></description>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $.logements]]></expression>
+    </regle>
     <!-- BAR-TH-124 -->
     <regle code-fiche="BAR-TH-124" type="eligibilite">
         <description><![CDATA[France d'outre-mer]]></description>
@@ -2393,6 +2413,117 @@
         <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $.logements]]></expression>
     </regle>
+    <!-- BAR-TH-125v54-5 -->
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : VMC double flux autoréglable - Installation individuelle - H1]]></description>
+        <condition><![CDATA[$.type_vmc_double_flux == 'AUTOREGLABLE']]></condition>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[39700]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : VMC double flux autoréglable - Installation individuelle - H2]]></description>
+        <condition><![CDATA[$.type_vmc_double_flux == 'AUTOREGLABLE']]></condition>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[32500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : VMC double flux autoréglable - Installation individuelle - H3]]></description>
+        <condition><![CDATA[$.type_vmc_double_flux == 'AUTOREGLABLE']]></condition>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[21600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : VMC double flux autoréglable - Installation collective - H1]]></description>
+        <condition><![CDATA[$.type_vmc_double_flux == 'AUTOREGLABLE']]></condition>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[23000]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : VMC double flux autoréglable - Installation collective - H2]]></description>
+        <condition><![CDATA[$.type_vmc_double_flux == 'AUTOREGLABLE']]></condition>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[18800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : VMC double flux autoréglable - Installation collective - H3]]></description>
+        <condition><![CDATA[$.type_vmc_double_flux == 'AUTOREGLABLE']]></condition>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[12500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : VMC double flux modulée - Installation individuelle - H1]]></description>
+        <condition><![CDATA[$.type_vmc_double_flux == 'MODULE']]></condition>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[42000]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : VMC double flux modulée - Installation individuelle - H2]]></description>
+        <condition><![CDATA[$.type_vmc_double_flux == 'MODULE']]></condition>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[34400]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : VMC double flux modulée - Installation individuelle - H3]]></description>
+        <condition><![CDATA[$.type_vmc_double_flux == 'MODULE']]></condition>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[22900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - S < 35]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_chauffee < 35]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.3]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - 35 <= S < 60]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 35 and $.surface_chauffee < 60]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.5]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - 60 <= S < 70]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 60 and $.surface_chauffee < 70]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.6]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - 70 <= S < 90]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 70 and $.surface_chauffee < 90]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.7]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - 90 <= S < 110]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 90 and $.surface_chauffee < 110]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - 110 <= S <= 130]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 110 and $.surface_chauffee <= 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1.1]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - S > 130]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_chauffee > 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1.6]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-125v54-5" type="montant">
+        <description><![CDATA[Coefficient multiplicateur - Installation collective]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $.logements]]></expression>
+    </regle>
     <!-- BAR-TH-127 -->
     <regle code-fiche="BAR-TH-127" type="eligibilite">
         <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
@@ -2564,6 +2695,174 @@
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.95]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-127v40-4" type="montant">
+        <description><![CDATA[Facteur correctif : Installation collective - Type B - Caisson Basse Pression]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_B']]></condition>
+        <condition><![CDATA[$.type_caisson == 'BASSE_PRESSION']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.78]]></expression>
+    </regle>
+    <!-- BAR-TH-127v54-5 -->
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : Installation individuelle - H1]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[31600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : Installation individuelle - H2]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[25900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : Installation individuelle - H3]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[17200]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : Installation collective - H1]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[21800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : Installation collective - H2]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[17800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Montant forfaitaire : Installation collective - H3]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[11900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - S < 35]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_habitable < 35]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.3]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - 35 <= S < 60]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_habitable >= 35 and $.surface_habitable < 60]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.5]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - 60 <= S < 70]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_habitable >= 60 and $.surface_habitable < 70]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.6]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - 70 <= S < 90]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_habitable >= 70 and $.surface_habitable < 90]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.7]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - 90 <= S < 110]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_habitable >= 90 and $.surface_habitable < 110]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - 110 <= S <= 130]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_habitable >= 110 and $.surface_habitable <= 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1.1]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - S > 130]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.surface_habitable > 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1.6]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Coefficient multiplicateur - Installation collective]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $.logements]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - Type A - Caisson Basse Consommation]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_A']]></condition>
+        <condition><![CDATA[$.type_caisson == 'BASSE_CONSOMMATION']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.9]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - Type A - Caisson Standard]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_A']]></condition>
+        <condition><![CDATA[$.type_caisson == 'STANDARD']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[0]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - Type A - Caisson Basse Pression]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_A']]></condition>
+        <condition><![CDATA[$.type_caisson == 'BASSE_PRESSION']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[0]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - Type B - Caisson Basse Consommation]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_B']]></condition>
+        <condition><![CDATA[$.type_caisson == 'BASSE_CONSOMMATION']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - Type B - Caisson Standard]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_B']]></condition>
+        <condition><![CDATA[$.type_caisson == 'STANDARD']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[0]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation individuelle - Type B - Caisson Basse Pression]]></description>
+        <condition><![CDATA[$.type_installation == 'INDIVIDUEL']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_B']]></condition>
+        <condition><![CDATA[$.type_caisson == 'BASSE_PRESSION']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[0]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation collective - Type A - Caisson Basse Consommation]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_A']]></condition>
+        <condition><![CDATA[$.type_caisson == 'BASSE_CONSOMMATION']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.96]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation collective - Type A - Caisson Standard]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_A']]></condition>
+        <condition><![CDATA[$.type_caisson == 'STANDARD']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.91]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation collective - Type A - Caisson Basse Pression]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_A']]></condition>
+        <condition><![CDATA[$.type_caisson == 'BASSE_PRESSION']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.76]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation collective - Type B - Caisson Basse Consommation]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_B']]></condition>
+        <condition><![CDATA[$.type_caisson == 'BASSE_CONSOMMATION']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
+        <description><![CDATA[Facteur correctif : Installation collective - Type B - Caisson Standard]]></description>
+        <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
+        <condition><![CDATA[$.type_vmc == 'TYPE_B']]></condition>
+        <condition><![CDATA[$.type_caisson == 'STANDARD']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.95]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-127v54-5" type="montant">
         <description><![CDATA[Facteur correctif : Installation collective - Type B - Caisson Basse Pression]]></description>
         <condition><![CDATA[$.type_installation == 'COLLECTIF']]></condition>
         <condition><![CDATA[$.type_vmc == 'TYPE_B']]></condition>
@@ -2770,6 +3069,39 @@
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $.surface_thermique]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-130v26-1" type="montant">
+        <description><![CDATA[Coefficient multiplicateur : Coefficient]]></description>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 17.984]]></expression>
+    </regle>
+    <!-- BAR-TH-130v54-2 -->
+    <regle id-fiche="BAR-TH-130v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire : Chauffage électrique - ECS électrique]]></description>
+        <condition><![CDATA[$.energie_chauffage == 'ELECTRICITE']]></condition>
+        <condition><![CDATA[$.energie_ecs == 'ELECTRICITE']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[($.cep_max / 2.3 - $.cef_bat)]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-130v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire : Chauffage combustible - ECS combustible]]></description>
+        <condition><![CDATA[$.energie_chauffage == 'COMBUSTIBLE']]></condition>
+        <condition><![CDATA[$.energie_ecs == 'COMBUSTIBLE']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[($.cep_max * 0.9 + $.cep_max * 0.1 / 2.3)]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-130v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire : Chauffage combustible - ECS électrique]]></description>
+        <condition><![CDATA[$.energie_chauffage == 'COMBUSTIBLE']]></condition>
+        <condition><![CDATA[$.energie_ecs == 'ELECTRICITE']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[($.cep_max * 0.65 + $.cep_max * 0.25 / 2.3 + $.cep_max * 0.1 / 2.3)]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-130v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire : Chauffage électrique - ECS combustible]]></description>
+        <condition><![CDATA[$.energie_chauffage == 'ELECTRICITE']]></condition>
+        <condition><![CDATA[$.energie_ecs == 'COMBUSTIBLE']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[($.cep_max * 0.3 / 2.3 + $.cep_max * 0.6 + $.cep_max * 0.1 / 2.3)]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-130v54-2" type="montant">
+        <description><![CDATA[Coefficient multiplicateur : Surface de référence RE2020]]></description>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $.surface_reference]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-130v54-2" type="montant">
         <description><![CDATA[Coefficient multiplicateur : Coefficient]]></description>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 17.984]]></expression>
     </regle>
@@ -3079,6 +3411,22 @@
         <description><![CDATA[Maison individuelle]]></description>
         <expression variable-cible="eligibilite_fiche"><![CDATA[$.type_batiment == 'MAISON']]></expression>
     </regle>
+    <!-- BAR-TH-143v25-1 -->
+    <regle id-fiche="BAR-TH-143v25-1" type="montant">
+        <description><![CDATA[Montant forfaitaire : H1]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[134800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-143v25-1" type="montant">
+        <description><![CDATA[Montant forfaitaire : H2]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[121000]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-143v25-1" type="montant">
+        <description><![CDATA[Montant forfaitaire : H3]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[100500]]></expression>
+    </regle>
     <!-- BAR-TH-143v51-5 -->
     <regle id-fiche="BAR-TH-143v51-5" type="montant">
         <description><![CDATA[Montant forfaitaire : H1]]></description>
@@ -3107,6 +3455,11 @@
     <regle code-fiche="BAR-TH-145" type="eligibilite">
         <description><![CDATA[Immeuble collectif]]></description>
         <expression variable-cible="eligibilite_fiche"><![CDATA[$.type_batiment == 'IMMEUBLE']]></expression>
+    </regle>
+    <!-- BAR-TH-145v36-3 -->
+    <regle id-fiche="BAR-TH-145v36-3" type="montant">
+        <description><![CDATA[Montant forfaitaire]]></description>
+        <expression variable-cible="volume_cee_base"><![CDATA[($.cef_initial - $.cef_projet) * $.surface_habitable * 18]]></expression>
     </regle>
     <!-- BAR-TH-145v52-4 -->
     <regle id-fiche="BAR-TH-145v52-4" type="montant">
@@ -3840,6 +4193,331 @@
         <condition><![CDATA[$.surface_chauffee > 130]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 2.5]]></expression>
     </regle>
+    <!-- BAR-TH-159v44-3 -->
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 110 <= ηs < 120]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 110 and $.etas < 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[74100]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - 110 <= ηs < 120]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 110 and $.etas < 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[62800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - 110 <= ηs < 120]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 110 and $.etas < 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[45600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 120 <= ηs < 130]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 120 and $.etas < 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[90300]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - 120 <= ηs < 130]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 120 and $.etas < 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[76500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - 120 <= ηs < 130]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 120 and $.etas < 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[55400]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 130 <= ηs < 140]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 130 and $.etas < 140]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[104800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - 130 <= ηs < 140]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 130 and $.etas < 140]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[88800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - 130 <= ηs < 140]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 130 and $.etas < 140]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[64400]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 140 <= ηs < 150]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 140 and $.etas < 150]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[117200]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - 140 <= ηs < 150]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 140 and $.etas < 150]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[99400]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - 140 <= ηs < 150]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 140 and $.etas < 150]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[72000]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 150 <= ηs < 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 150 and $.etas < 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[128000]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - 150 <= ηs < 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 150 and $.etas < 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[108500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - 150 <= ηs < 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 150 and $.etas < 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[78700]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - ηs >= 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[137500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - ηs >= 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[116600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - ηs >= 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[84500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H1 - 110 <= ηs < 120]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 110 and $.etas < 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[39600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H2 - 110 <= ηs < 120]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 110 and $.etas < 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[33900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H3 - 110 <= ηs < 120]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 110 and $.etas < 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[25600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H1 - 120 <= ηs < 130]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 120 and $.etas < 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[48200]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H2 - 120 <= ηs < 130]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 120 and $.etas < 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[41300]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H3 - 120 <= ηs < 130]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 120 and $.etas < 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[31200]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H1 - 130 <= ηs < 140]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 130 and $.etas < 140]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[55900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H2 - 130 <= ηs < 140]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 130 and $.etas < 140]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[47900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H3 - 130 <= ηs < 140]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 130 and $.etas < 140]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[36200]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H1 - 140 <= ηs < 150]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 140 and $.etas < 150]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[62600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H2 - 140 <= ηs < 150]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 140 and $.etas < 150]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[53600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H3 - 140 <= ηs < 150]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 140 and $.etas < 150]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[40500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H1 - 150 <= ηs < 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 150 and $.etas < 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[68400]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H2 - 150 <= ηs < 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 150 and $.etas < 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[58600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H3 - 150 <= ηs < 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 150 and $.etas < 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[44200]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H1 - ηs >= 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.etas >= 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[73400]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H2 - ηs >= 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.etas >= 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[62900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Montant forfaitaire : Appartement - H3 - ηs >= 160]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.etas >= 160]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[47500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Maison individuelle - S < 70]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.surface_chauffee < 70]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.5]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Maison individuelle - 70 <= S < 90]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 70 and $.surface_chauffee < 90]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.7]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Maison individuelle - 90 <= S < 110]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 90 and $.surface_chauffee < 110]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Maison individuelle - 110 <= S < 130]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 110 and $.surface_chauffee < 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1.1]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Maison individuelle - S > 130]]></description>
+        <condition><![CDATA[$.type_batiment == 'MAISON']]></condition>
+        <condition><![CDATA[$.surface_chauffee > 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1.6]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Appartement - S < 35]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.surface_chauffee < 35]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.5]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Appartement - 35 <= S < 60]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 35 and $.surface_chauffee < 60]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 0.7]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Appartement - 60 <= S < 70]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 60 and $.surface_chauffee < 70]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Appartement - 70 <= S < 90]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 70 and $.surface_chauffee < 90]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1.2]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Appartement - 90 <= S < 110]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 90 and $.surface_chauffee < 110]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1.5]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Appartement - 110 <= S < 130]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.surface_chauffee >= 110 and $.surface_chauffee < 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 1.9]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-159v44-3" type="montant">
+        <description><![CDATA[Facteur correctif : Appartement - S > 130]]></description>
+        <condition><![CDATA[$.type_batiment == 'APPARTEMENT']]></condition>
+        <condition><![CDATA[$.surface_chauffee > 130]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * 2.5]]></expression>
+    </regle>
     <!-- BAR-TH-160 -->
     <regle code-fiche="BAR-TH-160" type="eligibilite">
         <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
@@ -3852,6 +4530,26 @@
     <regle code-fiche="BAR-TH-160" type="eligibilite">
         <description><![CDATA[Immeuble collectif]]></description>
         <expression variable-cible="eligibilite_fiche"><![CDATA[$.type_batiment == 'IMMEUBLE']]></expression>
+    </regle>
+    <!-- BAR-TH-160v39-2 -->
+    <regle id-fiche="BAR-TH-160v39-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - H1]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[5100]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-160v39-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - H2]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[4600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-160v39-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - H3]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[3800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-160v39-2" type="montant">
+        <description><![CDATA[Coefficient multiplicateur]]></description>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $quantite]]></expression>
     </regle>
     <!-- BAR-TH-160v50-3 -->
     <regle id-fiche="BAR-TH-160v50-3" type="montant">
@@ -3870,6 +4568,26 @@
         <expression variable-cible="volume_cee_base"><![CDATA[3800]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-160v50-3" type="montant">
+        <description><![CDATA[Coefficient multiplicateur]]></description>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $quantite]]></expression>
+    </regle>
+    <!-- BAR-TH-160v54-4 -->
+    <regle id-fiche="BAR-TH-160v54-4" type="montant">
+        <description><![CDATA[Montant forfaitaire - H1]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[5100]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-160v54-4" type="montant">
+        <description><![CDATA[Montant forfaitaire - H2]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[4600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-160v54-4" type="montant">
+        <description><![CDATA[Montant forfaitaire - H3]]></description>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[3800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-160v54-4" type="montant">
         <description><![CDATA[Coefficient multiplicateur]]></description>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $quantite]]></expression>
     </regle>
@@ -4073,6 +4791,197 @@
         <description><![CDATA[Coefficient multiplicateur]]></description>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $.quantite]]></expression>
     </regle>
+    <!-- BAR-TH-161v54-2 -->
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H1 - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'ECHANGEUR']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[77200]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H2 - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'ECHANGEUR']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[73500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H3 - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'ECHANGEUR']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[66900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H1 - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'ECHANGEUR']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[88000]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H2 - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'ECHANGEUR']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[83900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H3 - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'ECHANGEUR']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[76300]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.diametre_nominal >= 20 and $.diametre_nominal <= 65]]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[11700]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.diametre_nominal >= 20 and $.diametre_nominal <= 65]]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[10500]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.diametre_nominal >= 20 and $.diametre_nominal <= 65]]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[8800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 20 <= DN <= 65 - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.diametre_nominal >= 20 and $.diametre_nominal <= 65]]></condition>
+        <condition><![CDATA[$.temperature_fluide > 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[12900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 20 <= DN <= 65 - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.diametre_nominal >= 20 and $.diametre_nominal <= 65]]></condition>
+        <condition><![CDATA[$.temperature_fluide > 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[11600]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 20 <= DN <= 65 - Tfluide > 120°CC]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.diametre_nominal >= 20 and $.diametre_nominal <= 65]]></condition>
+        <condition><![CDATA[$.temperature_fluide > 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[9700]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 65 and $.diametre_nominal <= 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[25100]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 65 and $.diametre_nominal <= 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[22700]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 65 and $.diametre_nominal <= 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[18900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 65 and $.diametre_nominal <= 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide > 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[27800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 65 and $.diametre_nominal <= 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide > 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[25100]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 65 and $.diametre_nominal <= 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide > 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[20900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[40900]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[37000]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide >= 50 and $.temperature_fluide <= 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[30800]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 100 < DN - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H1']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide > 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[45400]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 100 < DN - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H2']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide > 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[41000]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 100 < DN - Tfluide > 120°C]]></description>
+        <condition><![CDATA[$.type_point_singulier == 'AUTRES']]></condition>
+        <condition><![CDATA[$.zone_climatique == 'H3']]></condition>
+        <condition><![CDATA[$.diametre_nominal > 100]]></condition>
+        <condition><![CDATA[$.temperature_fluide > 120]]></condition>
+        <expression variable-cible="volume_cee_base"><![CDATA[34100]]></expression>
+    </regle>
+    <regle id-fiche="BAR-TH-161v54-2" type="montant">
+        <description><![CDATA[Coefficient multiplicateur]]></description>
+        <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * $.quantite]]></expression>
+    </regle>
     <!-- BAR-TH-162 -->
     <regle code-fiche="BAR-TH-162" type="eligibilite">
         <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
@@ -4135,6 +5044,11 @@
     </regle>
     <!-- BAR-TH-164v52-3 -->
     <regle id-fiche="BAR-TH-164v52-3" type="montant">
+        <description><![CDATA[Montant forfaitaire]]></description>
+        <expression variable-cible="volume_cee_base"><![CDATA[($.cef_initial - $.cef_projet) * $.surface_habitable * 18]]></expression>
+    </regle>
+    <!-- BAR-TH-164v36-2 -->
+    <regle id-fiche="BAR-TH-164v36-2" type="montant">
         <description><![CDATA[Montant forfaitaire]]></description>
         <expression variable-cible="volume_cee_base"><![CDATA[($.cef_initial - $.cef_projet) * $.surface_habitable * 18]]></expression>
     </regle>
@@ -4560,8 +5474,22 @@
         <expression><![CDATA[$.type_batiment == 'IMMEUBLE']]></expression>
     </regle>
     <!-- BAR-TH-170v54-1 -->
-    <regle id-fiche="BAR-TH-170v46-1" type="montant">
+    <regle id-fiche="BAR-TH-170v54-1" type="montant">
         <description><![CDATA[Montant forfaitaire]]></description>
         <expression variable-cible="volume_cee_base"><![CDATA[82300 * $.puissance_electrique]]></expression>
+    </regle>
+    <!-- ZNI -->
+    <regle code-bonification="ZNI" type="montant">
+        <description><![CDATA[Bonification ZNI]]></description>
+        <condition><![CDATA[$.outre_mer == 1]]></condition>
+        <expression variable-cible="volume_cee_bonification"><![CDATA[$.volume_cee_base * 2]]></expression>
+    </regle>
+    <!-- Scénario 8.1 -->
+    <regle type="montant">
+        <description><![CDATA[Scénario précarité 8.1]]></description>
+        <condition><![CDATA[$.scenario_precarite == '8.1']]></condition>
+        <condition><![CDATA[$.categorie_ressource == 'TRES_MODESTE']]></condition>
+        <expression variable-cible="volume_cee_classique"><![CDATA[0]]></expression>
+        <expression variable-cible="volume_cee_precarite"><![CDATA[$.volume_cee_base]]></expression>
     </regle>
 </regles>

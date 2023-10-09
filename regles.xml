@@ -1426,26 +1426,26 @@
     </regle>
     <regle id-fiche="BAR-TH-107v14-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie sans PAC - Puissance éligible < 1/3 puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 == 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches == 0]]></condition>
         <condition><![CDATA[$.puissance_eligible < $.puissance_chaufferie * 1/3]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_nominale / $.puissance_chaufferie)]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-107v14-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie sans PAC - Puissance éligible >= 1/3 puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 == 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches == 0]]></condition>
         <condition><![CDATA[$.puissance_eligible >= $.puissance_chaufferie * 1/3]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_nominale / $.puissance_eligible)]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-107v14-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie avec PAC - Puissance éligible PAC < 40% puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 > 0]]></condition>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 < 0.4 * $.puissance_chaufferie]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches > 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches < 0.4 * $.puissance_chaufferie]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_nominale / $.puissance_chaufferie)]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-107v14-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie avec PAC - Puissance éligible PAC >= 40% puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 > 0]]></condition>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 >= 0.4 * $.puissance_chaufferie]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches > 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches >= 0.4 * $.puissance_chaufferie]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[0]]></expression>
     </regle>
     <!-- BAR-TH-107-SE -->
@@ -1500,26 +1500,26 @@
     </regle>
     <regle id-fiche="BAR-TH-107-SEv14-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie sans PAC - Puissance éligible < 1/3 puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 == 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches == 0]]></condition>
         <condition><![CDATA[$.puissance_eligible < $.puissance_chaufferie * 1/3]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_nominale / $.puissance_chaufferie)]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-107-SEv14-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie sans PAC - Puissance éligible >= 1/3 puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 == 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches == 0]]></condition>
         <condition><![CDATA[$.puissance_eligible >= $.puissance_chaufferie * 1/3]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_nominale / $.puissance_eligible)]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-107-SEv14-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie avec PAC - Puissance éligible PAC < 40% puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 > 0]]></condition>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 < 0.4 * $.puissance_chaufferie]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches > 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches < 0.4 * $.puissance_chaufferie]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_nominale / $.puissance_chaufferie)]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-107-SEv14-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie avec PAC - Puissance éligible PAC >= 40% puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 > 0]]></condition>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 >= 0.4 * $.puissance_chaufferie]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches > 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches >= 0.4 * $.puissance_chaufferie]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[0]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-107-SEv14-1" type="montant">
@@ -2154,20 +2154,20 @@
     </regle>
     <regle id-fiche="BAR-TH-122v15-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie sans PAC - Puissance éligible < 1/3 puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 == 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches == 0]]></condition>
         <condition><![CDATA[$.puissance_eligible < $.puissance_chaufferie * 1/3]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_nominale / $.puissance_chaufferie)]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-122v15-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie avec PAC - Puissance éligible PAC < 40% puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 > 0]]></condition>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 < 0.4 * $.puissance_chaufferie]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches > 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches < 0.4 * $.puissance_chaufferie]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_nominale / $.puissance_chaufferie)]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-122v15-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie avec PAC - Puissance éligible PAC >= 40% puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 > 0]]></condition>
-        <condition><![CDATA[$.puissance_eligible_bar_th_150 >= 0.4 * $.puissance_chaufferie]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches > 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches >= 0.4 * $.puissance_chaufferie]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[0]]></expression>
     </regle>
     <!-- BAR-TH-123 -->
@@ -3742,13 +3742,13 @@
     </regle>
     <regle id-fiche="BAR-TH-150v14-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie sans Chaudière gaz - Puissance éligible < 40% puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_107 == 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches == 0]]></condition>
         <condition><![CDATA[$.puissance_eligible < $.puissance_chaufferie * 0.4]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_eligible / $.puissance_chaufferie)]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-150v14-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie avec Chaudière gaz - Puissance éligible < 40% puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_107 > 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches > 0]]></condition>
         <condition><![CDATA[$.puissance_eligible < $.puissance_chaufferie * 0.4]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_eligible / $.puissance_chaufferie)]]></expression>
     </regle>
@@ -5176,13 +5176,13 @@
     </regle>
     <regle id-fiche="BAR-TH-166v38-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie avec BAR-TH-166 uniquement - Puissance nominale < 40% puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_107 == 0 and $.puissance_eligible_bar_th_150 == 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches == 0 and $.puissance_eligible_autres_fiches == 0]]></condition>
         <condition><![CDATA[$.puissance_nominale < 0.4 * $.puissance_chaufferie]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_nominale / $.puissance_chaufferie)]]></expression>
     </regle>
     <regle id-fiche="BAR-TH-166v38-1" type="montant">
         <description><![CDATA[Facteur correctif : Chaufferie avec BAR-TH-107 ou BAR-TH-150 - Puissance nominale < 40% puissance chaufferie]]></description>
-        <condition><![CDATA[$.puissance_eligible_bar_th_107 > 0 or $.puissance_eligible_bar_th_150 > 0]]></condition>
+        <condition><![CDATA[$.puissance_eligible_autres_fiches > 0 or $.puissance_eligible_autres_fiches > 0]]></condition>
         <condition><![CDATA[$.puissance_nominale < 0.4 * $.puissance_chaufferie]]></condition>
         <expression variable-cible="volume_cee_base"><![CDATA[$.volume_cee_base * ($.puissance_nominale / $.puissance_chaufferie)]]></expression>
     </regle>

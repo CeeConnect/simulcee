@@ -4,503 +4,703 @@
     <declaration scope="*">
         <regle>
             <description><![CDATA[Zone climatique : Ain]]></description>
-            <condition><![CDATA[code_departement == '1]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '01']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Aisne]]></description>
-            <condition><![CDATA[code_departement == '2]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '02']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Allier]]></description>
-            <condition><![CDATA[code_departement == '3]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '03']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Hautes Alpes]]></description>
-            <condition><![CDATA[code_departement == '5]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '05']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Ardennes]]></description>
-            <condition><![CDATA[code_departement == '8]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '08']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Aube]]></description>
-            <condition><![CDATA[code_departement == '10]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '10']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Calvados]]></description>
-            <condition><![CDATA[code_departement == '14]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '14']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Cantal]]></description>
-            <condition><![CDATA[code_departement == '15]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '15']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Corrèze]]></description>
-            <condition><![CDATA[code_departement == '19]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '19']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Cote d’or]]></description>
-            <condition><![CDATA[code_departement == '21]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '21']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Creuse]]></description>
-            <condition><![CDATA[code_departement == '23]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '23']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Doubs]]></description>
-            <condition><![CDATA[code_departement == '25]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '25']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Eure]]></description>
-            <condition><![CDATA[code_departement == '27]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '27']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Eure et Loir]]></description>
-            <condition><![CDATA[code_departement == '28]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '28']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Isère]]></description>
-            <condition><![CDATA[code_departement == '38]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '38']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Jura]]></description>
-            <condition><![CDATA[code_departement == '39]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '39']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Loire]]></description>
-            <condition><![CDATA[code_departement == '42]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '42']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Haute Loire]]></description>
-            <condition><![CDATA[code_departement == '43]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '43']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Loiret]]></description>
-            <condition><![CDATA[code_departement == '45]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '45']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Marne]]></description>
-            <condition><![CDATA[code_departement == '51]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '51']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Haute Marne]]></description>
-            <condition><![CDATA[code_departement == '52]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '52']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Meurthe et Moselle]]></description>
-            <condition><![CDATA[code_departement == '54]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '54']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Meuse]]></description>
-            <condition><![CDATA[code_departement == '55]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '55']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Moselle]]></description>
-            <condition><![CDATA[code_departement == '57]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '57']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Nièvre]]></description>
-            <condition><![CDATA[code_departement == '58]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '58']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Nord]]></description>
-            <condition><![CDATA[code_departement == '59]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '59']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Oise]]></description>
-            <condition><![CDATA[code_departement == '60]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '60']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Orne]]></description>
-            <condition><![CDATA[code_departement == '61]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '61']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Pas de Calais]]></description>
-            <condition><![CDATA[code_departement == '62]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '62']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Puy de Dôme]]></description>
-            <condition><![CDATA[code_departement == '63]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '63']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Bas Rhin]]></description>
-            <condition><![CDATA[code_departement == '67]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '67']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Haut Rhin]]></description>
-            <condition><![CDATA[code_departement == '68]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '68']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Rhône]]></description>
-            <condition><![CDATA[code_departement == '69]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '69']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Haute Saône]]></description>
-            <condition><![CDATA[code_departement == '70]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '70']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Saône et Loire]]></description>
-            <condition><![CDATA[code_departement == '71]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '71']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Savoie]]></description>
-            <condition><![CDATA[code_departement == '73]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '73']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Haute Savoie]]></description>
-            <condition><![CDATA[code_departement == '74]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '74']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Paris]]></description>
-            <condition><![CDATA[code_departement == '75]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '75']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Seine Maritime]]></description>
-            <condition><![CDATA[code_departement == '76]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '76']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Seine et Marne]]></description>
-            <condition><![CDATA[code_departement == '77]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '77']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Yvelines]]></description>
-            <condition><![CDATA[code_departement == '78]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '78']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Somme]]></description>
-            <condition><![CDATA[code_departement == '80]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '80']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Haute Vienne]]></description>
-            <condition><![CDATA[code_departement == '87]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '87']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Vosges]]></description>
-            <condition><![CDATA[code_departement == '88]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '88']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Yonne]]></description>
-            <condition><![CDATA[code_departement == '89]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '89']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Territoire de Belfort]]></description>
-            <condition><![CDATA[code_departement == '90]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '90']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Essonne]]></description>
-            <condition><![CDATA[code_departement == '91]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '91']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Hauts de Seine]]></description>
-            <condition><![CDATA[code_departement == '92]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '92']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Seine Saint Denis]]></description>
-            <condition><![CDATA[code_departement == '93]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '93']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Val de Marne]]></description>
-            <condition><![CDATA[code_departement == '94]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '94']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Val d’Oise]]></description>
-            <condition><![CDATA[code_departement == '95]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H1]]></expression>
+            <condition><![CDATA[code_departement == '95']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Alpes de Haute Provence]]></description>
-            <condition><![CDATA[code_departement == '4]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '04']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Ardèche]]></description>
-            <condition><![CDATA[code_departement == '7]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '07']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Ariège]]></description>
-            <condition><![CDATA[code_departement == '9]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '09']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Aveyron]]></description>
-            <condition><![CDATA[code_departement == '12]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '12']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Charente]]></description>
-            <condition><![CDATA[code_departement == '16]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '16']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Charente Maritime]]></description>
-            <condition><![CDATA[code_departement == '17]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '17']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Cher]]></description>
-            <condition><![CDATA[code_departement == '18]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '18']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Cotes d’Armor]]></description>
-            <condition><![CDATA[code_departement == '22]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '22']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Dordogne]]></description>
-            <condition><![CDATA[code_departement == '24]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '24']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Drome]]></description>
-            <condition><![CDATA[code_departement == '26]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '26']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Finistère]]></description>
-            <condition><![CDATA[code_departement == '29]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '29']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Haute Garonne]]></description>
-            <condition><![CDATA[code_departement == '31]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '31']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Gers]]></description>
-            <condition><![CDATA[code_departement == '32]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '32']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Gironde]]></description>
-            <condition><![CDATA[code_departement == '33]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '33']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Ile et Vilaine]]></description>
-            <condition><![CDATA[code_departement == '35]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '35']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Indre]]></description>
-            <condition><![CDATA[code_departement == '36]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '36']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Indre et Loire]]></description>
-            <condition><![CDATA[code_departement == '37]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '37']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Landes]]></description>
-            <condition><![CDATA[code_departement == '40]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '40']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Loir et Cher]]></description>
-            <condition><![CDATA[code_departement == '41]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '41']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Loire Atlantique]]></description>
-            <condition><![CDATA[code_departement == '44]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '44']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Lot]]></description>
-            <condition><![CDATA[code_departement == '46]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '46']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Lot et Garonne]]></description>
-            <condition><![CDATA[code_departement == '47]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '47']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Lozère]]></description>
-            <condition><![CDATA[code_departement == '48]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '48']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Maine et Loire]]></description>
-            <condition><![CDATA[code_departement == '49]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '49']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Manche]]></description>
-            <condition><![CDATA[code_departement == '50]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '50']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Mayenne]]></description>
-            <condition><![CDATA[code_departement == '53]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '53']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Morbihan]]></description>
-            <condition><![CDATA[code_departement == '56]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '56']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Pyrénées Atlantiques]]></description>
-            <condition><![CDATA[code_departement == '64]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '64']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Hautes Pyrénées]]></description>
-            <condition><![CDATA[code_departement == '65]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '65']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Sarthe]]></description>
-            <condition><![CDATA[code_departement == '72]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '72']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Deux Sèvres]]></description>
-            <condition><![CDATA[code_departement == '79]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '79']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Tarn]]></description>
-            <condition><![CDATA[code_departement == '81]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '81']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Tarn et Garonne]]></description>
-            <condition><![CDATA[code_departement == '82]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '82']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Vaucluse]]></description>
-            <condition><![CDATA[code_departement == '84]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '84']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Vendée]]></description>
-            <condition><![CDATA[code_departement == '85]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '85']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Vienne]]></description>
-            <condition><![CDATA[code_departement == '86]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '86']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Alpes Maritimes]]></description>
-            <condition><![CDATA[code_departement == '6]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '06']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Aude]]></description>
-            <condition><![CDATA[code_departement == '11]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '11']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Bouches Du Rhône]]></description>
-            <condition><![CDATA[code_departement == '13]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '13']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Corse]]></description>
-            <condition><![CDATA[code_departement == '20]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '20']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Gard]]></description>
-            <condition><![CDATA[code_departement == '30]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '30']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Hérault]]></description>
-            <condition><![CDATA[code_departement == '34]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '34']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Pyrénées Orientales]]></description>
-            <condition><![CDATA[code_departement == '66]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '66']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Var]]></description>
-            <condition><![CDATA[code_departement == '83]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '83']]></condition>
+            <expression variable="metropole"><![CDATA[1]]></expression>
+            <expression variable="outre_mer"><![CDATA[0]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Saint-Pierre-et-Miquelon]]></description>
-            <condition><![CDATA[code_departement == '975]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H2]]></expression>
+            <condition><![CDATA[code_departement == '975']]></condition>
+            <expression variable="metropole"><![CDATA[0]]></expression>
+            <expression variable="outre_mer"><![CDATA[1]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Guadeloupe]]></description>
-            <condition><![CDATA[code_departement == '971]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '971']]></condition>
+            <expression variable="metropole"><![CDATA[0]]></expression>
+            <expression variable="outre_mer"><![CDATA[1]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Martinique]]></description>
-            <condition><![CDATA[code_departement == '972]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '972']]></condition>
+            <expression variable="metropole"><![CDATA[0]]></expression>
+            <expression variable="outre_mer"><![CDATA[1]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : Guyane]]></description>
-            <condition><![CDATA[code_departement == '973]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '973']]></condition>
+            <expression variable="metropole"><![CDATA[0]]></expression>
+            <expression variable="outre_mer"><![CDATA[1]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Zone climatique : La Réunion]]></description>
-            <condition><![CDATA[code_departement == '974]]></condition>
-            <expression variable="zone_climatique"><![CDATA['H3]]></expression>
+            <condition><![CDATA[code_departement == '974']]></condition>
+            <expression variable="metropole"><![CDATA[0]]></expression>
+            <expression variable="outre_mer"><![CDATA[1]]></expression>
+            <expression variable="zone_climatique"><![CDATA['H1']]></expression>
         </regle>
         <regle>
             <description><![CDATA[Initialisation]]></description>

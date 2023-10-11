@@ -1,40 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="regles">
+    <xs:element name="declarations">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="regle" minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="declaration" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="description">
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                        <xs:minLength value="1" />
-                                        <xs:maxLength value="240" />
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="condition" minOccurs="0" maxOccurs="unbounded">
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                        <xs:minLength value="1" />
-                                        <xs:maxLength value="240" />
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="expression" minOccurs="0" maxOccurs="unbounded">
-                                <xs:complexType>
-                                    <xs:restriction base="xs:string">
-                                        <xs:minLength value="1" />
-                                        <xs:maxLength value="240" />
-                                    </xs:restriction>
-                                    <xs:attribute name="operation" type="xs:string" />
-                                </xs:complexType>
-                            </xs:element>
+                            <xs:element ref="condition" minOccurs="0" maxOccurs="unbounded" />
+                            <xs:element ref="regle" minOccurs="0" maxOccurs="unbounded" />
                         </xs:sequence>
-                        <xs:attribute name="operation" type="xs:string" />
+                        <xs:attribute name="scope" type="xs:string" use="required" />
                     </xs:complexType>
                 </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="expressionValue">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="240" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="expressionType" >
+        <xs:simpleContent>
+            <xs:extension base="expressionValue">
+                <xs:attribute name="variable" type="xs:string" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:element name="condition">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="1" />
+                <xs:maxLength value="240" />
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="regle">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="description">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="1" />
+                            <xs:maxLength value="240" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="condition" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element name="expression" type="expressionType" minOccurs="0" maxOccurs="unbounded" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>

@@ -6331,7 +6331,7 @@
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
       <condition><![CDATA[usage == 'CHAUFFAGE']]></condition>
       <condition><![CDATA[performance_energetique >= 111 and performance_energetique < 140]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[1600]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[16600]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage et ECS - 140% <= ηs < 170%]]></description>

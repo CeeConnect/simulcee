@@ -6533,32 +6533,28 @@
       <definition variable="volume_cee_fiche"><![CDATA[103500]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Facteur correctif : Maison individuelle - S < 70]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <description><![CDATA[Facteur correctif : S < 70]]></description>
       <condition><![CDATA[surface_chauffee < 70]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.5]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Facteur correctif : Maison individuelle - 70 <= S < 90]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <description><![CDATA[Facteur correctif : 70 <= S < 90]]></description>
       <condition><![CDATA[surface_chauffee >= 70 and surface_chauffee < 90]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.7]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Facteur correctif : Maison individuelle - 90 <= S < 110]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <description><![CDATA[Facteur correctif : 90 <= S < 110]]></description>
       <condition><![CDATA[surface_chauffee >= 90 and surface_chauffee < 110]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Facteur correctif : Maison individuelle - 110 <= S <= 130]]></description>
+      <description><![CDATA[Facteur correctif : 110 <= S <= 130]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
       <condition><![CDATA[surface_chauffee >= 110 and surface_chauffee <= 130]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.1]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Facteur correctif : Maison individuelle - > 130]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <description><![CDATA[Facteur correctif : S > 130]]></description>
       <condition><![CDATA[surface_chauffee > 130]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.6]]></definition>
     </regle>

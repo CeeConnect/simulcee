@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<?xml-model href="../dist/regles.xsd"?>
-<declarations>
+<declarations >
+
   <declaration scope="*">
     <regle>
       <description><![CDATA[Zone climatique : Ain]]></description>
@@ -2373,42 +2373,42 @@
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1100]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H2]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[880]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H3]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[590]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1000]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage collectif - H2]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[850]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage collectif - H3]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[560]]></definition>
     </regle>
     <regle>
@@ -2617,42 +2617,42 @@
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[210]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H2]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[170]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H3]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[110]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[280]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage collectif - H2]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[230]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage collectif - H3]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[150]]></definition>
     </regle>
     <regle>
@@ -2691,42 +2691,42 @@
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1200]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H2]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[980]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H3]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[650]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1600]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage collectif - H2]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1300]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage collectif - H3]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[890]]></definition>
     </regle>
     <regle>
@@ -2787,7 +2787,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - Électricité - H1]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <condition><![CDATA[energie_chauffage == 'ELECTRICITE']]></condition>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[4300]]></definition>
@@ -2795,7 +2795,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - Électricité - H2]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <condition><![CDATA[energie_chauffage == 'ELECTRICITE']]></condition>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[3500]]></definition>
@@ -2803,7 +2803,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - Électricité - H3]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <condition><![CDATA[energie_chauffage == 'ELECTRICITE']]></condition>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[2300]]></definition>
@@ -2811,7 +2811,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - Combustible - H1]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[6600]]></definition>
@@ -2819,7 +2819,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - Combustible - H2]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[5400]]></definition>
@@ -2827,7 +2827,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - Combustible - H3]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
       <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[3600]]></definition>
@@ -2835,28 +2835,28 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage collectif - H1]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[9100]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage collectif - H2]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[7400]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage collectif - H3]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[4900]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Coefficient : Appartement - Chauffage collectif]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[type_installation_chauffage == 'COLLECTIF']]></condition>
+      <condition><![CDATA[type_installation == 'COLLECTIF']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
     <regle>

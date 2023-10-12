@@ -3909,7 +3909,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Logement existant]]></description>
       <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * taux_couverture]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * taux_couverture_solaire]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffe eau solaire collectif à appoint individualisé]]></description>

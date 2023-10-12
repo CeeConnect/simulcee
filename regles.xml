@@ -6049,6 +6049,11 @@
       <condition><![CDATA[surface_habitable > 130]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.2]]></definition>
     </regle>
+    <regle>
+      <description><![CDATA[Coefficient multiplicateur : Nombre de logements]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
+    </regle>
   </declaration>
   <declaration scope="BAR-TH-168">
     <regle>

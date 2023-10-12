@@ -3908,7 +3908,7 @@
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Logement existant]]></description>
-      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT' and extension_batiment == 0]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * taux_couverture_solaire]]></definition>
     </regle>
     <regle>
@@ -3923,31 +3923,31 @@
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Logement neuf - Guyane]]></description>
-      <condition><![CDATA[anciennete_batiment == 'NEUF']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'NEUF' or extension_batiment == 1]]></condition>
       <condition><![CDATA[code_departement == '973']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (taux_couverture - 44)]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Logement neuf - Guadeloupe]]></description>
-      <condition><![CDATA[anciennete_batiment == 'NEUF']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'NEUF' or extension_batiment == 1]]></condition>
       <condition><![CDATA[code_departement == '971']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (taux_couverture - 50)]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Logement neuf - Martinique]]></description>
-      <condition><![CDATA[anciennete_batiment == 'NEUF']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'NEUF' or extension_batiment == 1]]></condition>
       <condition><![CDATA[code_departement == '972']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (taux_couverture - 50)]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Logement neuf - Réunion]]></description>
-      <condition><![CDATA[anciennete_batiment == 'NEUF']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'NEUF' or extension_batiment == 1]]></condition>
       <condition><![CDATA[code_departement == '974']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (taux_couverture - 50)]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Logement neuf - Mayotte]]></description>
-      <condition><![CDATA[anciennete_batiment == 'NEUF']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'NEUF' or extension_batiment == 1]]></condition>
       <condition><![CDATA[code_departement == '976']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (taux_couverture - 50)]]></definition>
     </regle>

@@ -1048,17 +1048,17 @@
         <regle>
             <description><![CDATA[Montant forfaitaire : H1]]></description>
             <condition><![CDATA[zone_climatique == 'H1']]></condition>
-            <expression variable="volume_cee_fiche"><![CDATA[900]]></expression>
+            <expression variable="volume_cee_fiche"><![CDATA[510]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : H2]]></description>
             <condition><![CDATA[zone_climatique == 'H2']]></condition>
-            <expression variable="volume_cee_fiche"><![CDATA[730]]></expression>
+            <expression variable="volume_cee_fiche"><![CDATA[420]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : H3]]></description>
             <condition><![CDATA[zone_climatique == 'H3']]></condition>
-            <expression variable="volume_cee_fiche"><![CDATA[490]]></expression>
+            <expression variable="volume_cee_fiche"><![CDATA[280]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Surface totale de fermeture isolante posée (m²)]]></description>

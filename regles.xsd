@@ -6,6 +6,7 @@
                 <xs:element name="declaration" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
+                            <xs:element name="description" minOccurs="0" maxOccurs="1" />
                             <xs:element ref="condition" minOccurs="0" maxOccurs="unbounded" />
                             <xs:element ref="regle" minOccurs="0" maxOccurs="unbounded" />
                         </xs:sequence>
@@ -14,6 +15,14 @@
                 </xs:element>
             </xs:sequence>
         </xs:complexType>
+    </xs:element>
+    <xs:element name="description">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="1" />
+                <xs:maxLength value="240" />
+            </xs:restriction>
+        </xs:simpleType>
     </xs:element>
     <xs:simpleType name="expressionValue">
         <xs:restriction base="xs:string">
@@ -39,14 +48,7 @@
     <xs:element name="regle">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="description">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                            <xs:minLength value="1" />
-                            <xs:maxLength value="240" />
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:element>
+                <xs:element name="description" minOccurs="0" maxOccurs="1" />
                 <xs:element name="condition" minOccurs="0" maxOccurs="unbounded" />
                 <xs:element name="expression" type="expressionType" minOccurs="0" maxOccurs="unbounded" />
             </xs:sequence>

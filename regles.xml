@@ -4511,13 +4511,13 @@
       <description><![CDATA[Facteur correctif : Chaufferie sans Chaudière gaz - Puissance éligible < 40% puissance chaufferie]]></description>
       <condition><![CDATA[puissance_eligible_autres_fiches == 0]]></condition>
       <condition><![CDATA[puissance_eligible < puissance_chaufferie * 0.4]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (puissance_eligible / puissance_chaufferie)]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (puissance_nominale / puissance_chaufferie)]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Facteur correctif : Chaufferie avec Chaudière gaz - Puissance éligible < 40% puissance chaufferie]]></description>
       <condition><![CDATA[puissance_eligible_autres_fiches > 0]]></condition>
       <condition><![CDATA[puissance_eligible < puissance_chaufferie * 0.4]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (puissance_eligible / puissance_chaufferie)]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (puissance_nominale / puissance_chaufferie)]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-155">

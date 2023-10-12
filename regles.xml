@@ -4064,112 +4064,112 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - 7000 BTU/h - Classe A]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 7000 or puissance_frigorigique == 2.05]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 7000 or puissance_frigorifique == 2.05]]></condition>
       <condition><![CDATA[performance_energetique == 'A']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[2300]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - 7000 BTU/h - Classe A+]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 7000 or puissance_frigorigique == 2.05]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 7000 or puissance_frigorifique == 2.05]]></condition>
       <condition><![CDATA[performance_energetique == 'A+']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[4100]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - 7000 BTU/h - Classe A++]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 7000 or puissance_frigorigique == 2.05]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 7000 or puissance_frigorifique == 2.05]]></condition>
       <condition><![CDATA[performance_energetique == 'A++']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[5700]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - 7000 BTU/h - Classe A+++]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 7000 or puissance_frigorigique == 2.05]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 7000 or puissance_frigorifique == 2.05]]></condition>
       <condition><![CDATA[performance_energetique == 'A+++']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[10600]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - 9000 BTU/h - Classe A]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 9000 or puissance_frigorigique == 2.64]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 9000 or puissance_frigorifique == 2.64]]></condition>
       <condition><![CDATA[performance_energetique == 'A']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[2600]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - 9000 BTU/h - Classe A+]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 9000 or puissance_frigorigique == 2.64]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 9000 or puissance_frigorifique == 2.64]]></condition>
       <condition><![CDATA[performance_energetique == 'A+']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[4800]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - 9000 BTU/h - Classe A++]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 9000 or puissance_frigorigique == 2.64]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 9000 or puissance_frigorifique == 2.64]]></condition>
       <condition><![CDATA[performance_energetique == 'A++']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[6600]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - 9000 BTU/h - Classe A+++]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 9000 or puissance_frigorigique == 2.64]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 9000 or puissance_frigorifique == 2.64]]></condition>
       <condition><![CDATA[performance_energetique == 'A+++']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[12200]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - 7000 BTU/h - Classe A]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 7000 or puissance_frigorigique == 2.05]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 7000 or puissance_frigorifique == 2.05]]></condition>
       <condition><![CDATA[performance_energetique == 'A']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1300]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - 7000 BTU/h - Classe A+]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 7000 or puissance_frigorigique == 2.05]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 7000 or puissance_frigorifique == 2.05]]></condition>
       <condition><![CDATA[performance_energetique == 'A+']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[2500]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - 7000 BTU/h - Classe A++]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 7000 or puissance_frigorigique == 2.05]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 7000 or puissance_frigorifique == 2.05]]></condition>
       <condition><![CDATA[performance_energetique == 'A++']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[3400]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - 7000 BTU/h - Classe A+++]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 7000 or puissance_frigorigique == 2.05]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 7000 or puissance_frigorifique == 2.05]]></condition>
       <condition><![CDATA[performance_energetique == 'A+++']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[6300]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - 9000 BTU/h - Classe A]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 9000 or puissance_frigorigique == 2.64]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 9000 or puissance_frigorifique == 2.64]]></condition>
       <condition><![CDATA[performance_energetique == 'A']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1600]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - 9000 BTU/h - Classe A+]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 9000 or puissance_frigorigique == 2.64]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 9000 or puissance_frigorifique == 2.64]]></condition>
       <condition><![CDATA[performance_energetique == 'A+']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[2900]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - 9000 BTU/h - Classe A++]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 9000 or puissance_frigorigique == 2.64]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 9000 or puissance_frigorifique == 2.64]]></condition>
       <condition><![CDATA[performance_energetique == 'A++']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[4000]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - 9000 BTU/h - Classe A+++]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[puissance_frigorigique == 9000 or puissance_frigorigique == 2.64]]></condition>
+      <condition><![CDATA[puissance_frigorifique == 9000 or puissance_frigorifique == 2.64]]></condition>
       <condition><![CDATA[performance_energetique == 'A+++']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[7400]]></definition>
     </regle>

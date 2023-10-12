@@ -1083,7 +1083,7 @@
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Immeuble]]></description>
-            <condition><![CDATA[zone_climatique == 'IMMEUBLE']]></condition>
+            <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
             <expression variable="volume_cee_fiche"><![CDATA[520]]></expression>
         </regle>
         <regle>

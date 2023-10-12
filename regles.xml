@@ -5368,192 +5368,192 @@
     <regle>
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H1 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[77200]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H2 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[73500]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H3 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[66900]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H1 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[88000]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H2 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[83900]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H3 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[76300]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[11700]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[10500]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[8800]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 20 <= DN <= 65 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[item.temperature_fluide > 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
+      <condition><![CDATA[temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[12900]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 20 <= DN <= 65 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[item.temperature_fluide > 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
+      <condition><![CDATA[temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[11600]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 20 <= DN <= 65 - Tfluide > 120°CC]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[item.temperature_fluide > 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
+      <condition><![CDATA[temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[9700]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[25100]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[22700]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[18900]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide > 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
+      <condition><![CDATA[temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[27800]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide > 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
+      <condition><![CDATA[temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[25100]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide > 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
+      <condition><![CDATA[temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[20900]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 100]]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[40900]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 100]]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[37000]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 100]]></condition>
+      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[30800]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 100 < DN - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide > 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 100]]></condition>
+      <condition><![CDATA[temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[45400]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 100 < DN - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide > 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 100]]></condition>
+      <condition><![CDATA[temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[41000]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 100 < DN - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[item.type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[item.diametre > 100]]></condition>
-      <condition><![CDATA[item.temperature_fluide > 120]]></condition>
+      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[diametre > 100]]></condition>
+      <condition><![CDATA[temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[34100]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Coefficient multiplicateur]]></description>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * item.quantite]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-161v54-2">

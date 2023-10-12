@@ -740,6 +740,10 @@
             <condition><![CDATA[zone_climatique == 'H3']]></condition>
             <expression variable="volume_cee_base"><![CDATA[920]]></expression>
         </regle>
+        <regle>
+            <description><![CDATA[Surface d'isolant (m²)]]></description>
+            <expression variable="volume_cee_base"><![CDATA[volume_cee_base * quantite]]></expression>
+        </regle>
     </declaration>
     <declaration scope="BAR-EN-102">
         <regle>

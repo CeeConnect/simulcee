@@ -5319,7 +5319,7 @@
     </regle>
     <regle>
       <description><![CDATA[Coefficient multiplicateur]]></description>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * $quantite]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-160v50-3">
@@ -5340,7 +5340,7 @@
     </regle>
     <regle>
       <description><![CDATA[Coefficient multiplicateur]]></description>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * $quantite]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-160v54-4">
@@ -5361,7 +5361,7 @@
     </regle>
     <regle>
       <description><![CDATA[Coefficient multiplicateur]]></description>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * $quantite]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-161">
@@ -5797,7 +5797,7 @@
     </regle>
     <regle>
       <description><![CDATA[Coefficient multiplicateur]]></description>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * $quantite]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-164">

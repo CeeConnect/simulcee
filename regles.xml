@@ -1847,7 +1847,7 @@
   <declaration scope="BAR-TH-102v17-1">
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
-      <definition variable="volume_cee_fiche"><![CDATA[besoin_eau_chaude_sanitaire * (production_solaire_utile / besoin_eau_chaude_sanitaire) * 0.196]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[besoin_eau_chaude_sanitaire * (production_solaire_utile / besoin_eau_chaude_sanitaire) * 100 * 0.196]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-104">

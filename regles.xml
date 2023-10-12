@@ -2895,6 +2895,12 @@
       <condition><![CDATA[surface_chauffee >= 110 and surface_chauffee <= 130]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.1]]></definition>
     </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif : Maison individuelle - S > 130]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[surface_chauffee > 130]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.6]]></definition>
+    </regle>
   </declaration>
   <declaration scope="BAR-TH-122">
     <regle>

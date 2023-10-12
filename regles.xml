@@ -3899,7 +3899,7 @@
   <declaration scope="BAR-TH-135v35-2">
     <regle>
       <description><![CDATA[Taux de couverture solaire maximal]]></description>
-      <condition><![CDATA[taux_couverture > 90]]></condition>
+      <condition><![CDATA[taux_couverture_solaire > 90]]></condition>
       <definition variable="taux_couverture_solaire"><![CDATA[90]]></definition>
     </regle>
     <regle>

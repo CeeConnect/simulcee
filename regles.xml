@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <?xml-model href="../dist/regles.xsd"?>
 <declarations>
   <declaration scope="*">
@@ -715,12 +715,10 @@
   </declaration>
   <declaration scope="BAR-EN-101">
     <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EN-101v39-4">
@@ -767,12 +765,10 @@
   </declaration>
   <declaration scope="BAR-EN-102">
     <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EN-102v39-2">
@@ -798,8 +794,9 @@
   </declaration>
   <declaration scope="BAR-EN-103">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EN-103v39-5">
@@ -825,8 +822,9 @@
   </declaration>
   <declaration scope="BAR-EN-104">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EN-104v14-1">
@@ -915,8 +913,9 @@
   </declaration>
   <declaration scope="BAR-EN-106">
     <regle>
-      <description><![CDATA[France d'outre-mer]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[outre_mer == 1]]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[outre_mer == 1]]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EN-106v33-4">
@@ -951,8 +950,9 @@
   </declaration>
   <declaration scope="BAR-EN-107">
     <regle>
-      <description><![CDATA[France d'outre-mer]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[outre_mer == 1]]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[outre_mer == 1]]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EN-107v20-3">
@@ -1019,8 +1019,9 @@
   </declaration>
   <declaration scope="BAR-EN-108">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EN-108v37-2">
@@ -1067,12 +1068,14 @@
   </declaration>
   <declaration scope="BAR-EN-109">
     <regle>
-      <description><![CDATA[France d'outre-mer]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[outre_mer == 1]]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[outre_mer == 1]]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EN-109v24-1">
@@ -1093,8 +1096,9 @@
   </declaration>
   <declaration scope="BAR-EN-110">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EN-110v35-1">
@@ -1120,8 +1124,9 @@
   </declaration>
   <declaration scope="BAR-EQ-110">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EQ-110v15-1">
@@ -1156,8 +1161,9 @@
   </declaration>
   <declaration scope="BAR-EQ-115">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EQ-115v28-1">
@@ -1299,8 +1305,9 @@
   </declaration>
   <declaration scope="BAR-SE-104">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-SE-104v19-1">
@@ -1330,8 +1337,9 @@
   </declaration>
   <declaration scope="BAR-SE-105">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-SE-105v28-1">
@@ -1509,7 +1517,8 @@
   <declaration scope="BAR-SE-106v32-1">
     <regle>
       <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[0]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - Chauffage électrique]]></description>
@@ -1640,12 +1649,10 @@
   </declaration>
   <declaration scope="BAR-SE-107">
     <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-SE-107v37-1">
@@ -1675,18 +1682,17 @@
   </declaration>
   <declaration scope="BAR-SE-108">
     <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-SE-108v48-1">
     <regle>
       <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[0]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1]]></description>
@@ -1727,12 +1733,10 @@
   </declaration>
   <declaration scope="BAR-SE-109">
     <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-SE-109v54-1">
@@ -1801,16 +1805,11 @@
   </declaration>
   <declaration scope="BAR-TH-101">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison individuelle]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-101v17-1">
@@ -1832,18 +1831,17 @@
   </declaration>
   <declaration scope="BAR-TH-102">
     <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble collectif]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-102">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-102v17-1">
@@ -1854,12 +1852,10 @@
   </declaration>
   <declaration scope="BAR-TH-104">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-104v41-3">
@@ -2064,8 +2060,9 @@
   </declaration>
   <declaration scope="BAR-TH-106">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-106v23-2">
@@ -2143,12 +2140,13 @@
   </declaration>
   <declaration scope="BAR-TH-107">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Immeuble collectif]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-107v14-1">
@@ -2219,8 +2217,9 @@
   </declaration>
   <declaration scope="BAR-TH-107-SE">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Immeuble collectif]]></description>
@@ -2345,12 +2344,10 @@
   </declaration>
   <declaration scope="BAR-TH-110">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-110v16-1">
@@ -2421,12 +2418,10 @@
   </declaration>
   <declaration scope="BAR-TH-111">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-111v17-1">
@@ -2504,12 +2499,10 @@
   </declaration>
   <declaration scope="BAR-TH-112">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-112v46-3">
@@ -2570,12 +2563,10 @@
   </declaration>
   <declaration scope="BAR-TH-113">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-113v41-3">
@@ -2597,12 +2588,10 @@
   </declaration>
   <declaration scope="BAR-TH-116">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-116v17-1">
@@ -2673,12 +2662,10 @@
   </declaration>
   <declaration scope="BAR-TH-117">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-117v14-1">
@@ -2749,8 +2736,9 @@
   </declaration>
   <declaration scope="BAR-TH-118">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-118v14-1">
@@ -2910,12 +2898,10 @@
   </declaration>
   <declaration scope="BAR-TH-122">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble collectif]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-122v15-1">
@@ -2959,12 +2945,10 @@
   </declaration>
   <declaration scope="BAR-TH-123">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble collectif]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-123v17-1">
@@ -3011,12 +2995,10 @@
   </declaration>
   <declaration scope="BAR-TH-124">
     <regle>
-      <description><![CDATA[France d'outre-mer]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[outre_mer == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[outre_mer == 1]]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-124v35-3">
@@ -3087,12 +3069,10 @@
   </declaration>
   <declaration scope="BAR-TH-125">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-125v40-4">
@@ -3321,8 +3301,9 @@
   </declaration>
   <declaration scope="BAR-TH-127">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
     <regle>
       <description><![CDATA[France métropolitaine]]></description>
@@ -3669,12 +3650,10 @@
   </declaration>
   <declaration scope="BAR-TH-129">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-129v27-3">
@@ -3829,15 +3808,10 @@
   <declaration scope="BAR-TH-130">
     <regle>
       <description><![CDATA[Bâtiment neuf]]></description>
-      <definition><![CDATA[anciennete_batiment == 'NEUF']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison ou immeuble]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'APPARTEMENT']]></definition>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'NEUF']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-130v26-1">
@@ -3911,11 +3885,9 @@
   <declaration scope="BAR-TH-135">
     <regle>
       <description><![CDATA[France d'outre-mer]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[outre_mer == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble collectif]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <condition><![CDATA[outre_mer == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-135v35-2">
@@ -3976,12 +3948,10 @@
   </declaration>
   <declaration scope="BAR-TH-137">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble ou maison]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'APPARTEMENT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-137v45-3">
@@ -4059,12 +4029,10 @@
   </declaration>
   <declaration scope="BAR-TH-139">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-139v23-2">
@@ -4079,16 +4047,11 @@
   </declaration>
   <declaration scope="BAR-TH-141">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France d'outre-mer]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[outre_mer == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[outre_mer == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-141v15-1">
@@ -4211,16 +4174,11 @@
   </declaration>
   <declaration scope="BAR-TH-143">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison individuelle]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-143v25-1">
@@ -4259,16 +4217,11 @@
   </declaration>
   <declaration scope="BAR-TH-145">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble collectif]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-145v36-3">
@@ -4285,12 +4238,10 @@
   </declaration>
   <declaration scope="BAR-TH-148">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-148v15-2">
@@ -4307,12 +4258,10 @@
   </declaration>
   <declaration scope="BAR-TH-150">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-150v14-1">
@@ -4575,16 +4524,11 @@
   </declaration>
   <declaration scope="BAR-TH-155">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[type_batiment != 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-155v40-4">
@@ -4634,12 +4578,10 @@
   </declaration>
   <declaration scope="BAR-TH-158">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-158v35-2">
@@ -4686,12 +4628,10 @@
   </declaration>
   <declaration scope="BAR-TH-159">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-159v50-4">
@@ -5348,16 +5288,11 @@
   </declaration>
   <declaration scope="BAR-TH-160">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble collectif]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-160v39-2">
@@ -5425,12 +5360,10 @@
   </declaration>
   <declaration scope="BAR-TH-161">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble collectif ou maison individuelle]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-161v28-1">
@@ -5819,16 +5752,11 @@
   </declaration>
   <declaration scope="BAR-TH-162">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison individuelle]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-162v28-1">
@@ -5839,12 +5767,10 @@
   </declaration>
   <declaration scope="BAR-TH-163">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble collectif]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-163v38-2">
@@ -5870,16 +5796,11 @@
   </declaration>
   <declaration scope="BAR-TH-164">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison individuelle]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-164v52-3">
@@ -5896,12 +5817,10 @@
   </declaration>
   <declaration scope="BAR-TH-165">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison individuelle]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-165v34-1">
@@ -5922,12 +5841,10 @@
   </declaration>
   <declaration scope="BAR-TH-166">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble collectif]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-166v38-1">
@@ -6034,16 +5951,11 @@
   </declaration>
   <declaration scope="BAR-TH-167">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison individuelle ou appartement]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-167v38-1">
@@ -6134,16 +6046,11 @@
   </declaration>
   <declaration scope="BAR-TH-168">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[France métropolitaine]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Maison individuelle]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'MAISON']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[metropole == 1]]></condition>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-168v40-1">
@@ -6190,12 +6097,10 @@
   </declaration>
   <declaration scope="BAR-TH-169">
     <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Immeuble collecti]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-169v46-1">
@@ -6322,8 +6227,9 @@
   </declaration>
   <declaration scope="BAR-TH-170">
     <regle>
-      <description><![CDATA[Immeuble collectif]]></description>
-      <definition><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-170v54-1">
@@ -6334,18 +6240,17 @@
   </declaration>
   <declaration scope="BAR-TH-171">
     <regle>
-      <description><![CDATA[Maison individuelle ou appartement]]></description>
-      <definition><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-171v55-1">
     <regle>
-      <description><![CDATA[Maison individuelle ou appartement]]></description>
-      <definition><![CDATA[type_batiment != 'IMMEUBLE']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - Chauffage et ECS - 111% <= ηs < 140%]]></description>
@@ -6549,12 +6454,10 @@
   </declaration>
   <declaration scope="BAR-TH-172">
     <regle>
-      <description><![CDATA[Maison individuelle]]></description>
-      <definition><![CDATA[type_batiment == 'MAISON']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
-      <definition variable="eligibilite_fiche"><![CDATA[anciennete_batiment == 'EXISTANT']]></definition>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-172v55-1">

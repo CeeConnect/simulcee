@@ -1794,6 +1794,10 @@
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <expression variable="volume_cee_fiche"><![CDATA[2800]]></expression>
     </regle>
+    <regle>
+      <description><![CDATA[Coefficient multiplicateur : Nombre de logements]]></description>
+      <expression variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></expression>
+    </regle>
   </declaration>
   <declaration scope="BAR-TH-101">
     <regle>

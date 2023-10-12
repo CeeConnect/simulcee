@@ -744,6 +744,27 @@
             <expression variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></expression>
         </regle>
     </declaration>
+    <declaration scope="BAR-EN-101v54-5">
+        <regle>
+            <description><![CDATA[Montant forfaitaire : H1]]></description>
+            <condition><![CDATA[zone_climatique == 'H1']]></condition>
+            <expression variable="volume_cee_fiche"><![CDATA[1700]]></expression>
+        </regle>
+        <regle>
+            <description><![CDATA[Montant forfaitaire : H2]]></description>
+            <condition><![CDATA[zone_climatique == 'H2']]></condition>
+            <expression variable="volume_cee_fiche"><![CDATA[1400]]></expression>
+        </regle>
+        <regle>
+            <description><![CDATA[Montant forfaitaire : H3]]></description>
+            <condition><![CDATA[zone_climatique == 'H3']]></condition>
+            <expression variable="volume_cee_fiche"><![CDATA[920]]></expression>
+        </regle>
+        <regle>
+            <description><![CDATA[Surface d'isolant (m²)]]></description>
+            <expression variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></expression>
+        </regle>
+    </declaration>
     <declaration scope="BAR-EN-102">
         <regle>
             <description><![CDATA[France métropolitaine]]></description>

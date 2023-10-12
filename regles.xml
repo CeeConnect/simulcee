@@ -1134,7 +1134,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : IK = 10 - Détection de présence ET de lumière]]></description>
       <condition><![CDATA[indice_protection_chocs == 10]]></condition>
-      <condition><![CDATA[detecteur_presence == 1 or detecteur_lumiere == 1]]></condition>
+      <condition><![CDATA[detecteur_presence == 1 and detecteur_lumiere == 1]]></condition>
       <expression variable="volume_cee_fiche"><![CDATA[1600]]></expression>
     </regle>
     <regle>
@@ -1146,7 +1146,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : IK < 10 - Détection de présence ET de lumière]]></description>
       <condition><![CDATA[indice_protection_chocs < 10]]></condition>
-      <condition><![CDATA[detecteur_presence == 1 or detecteur_lumiere == 1]]></condition>
+      <condition><![CDATA[detecteur_presence == 1 and detecteur_lumiere == 1]]></condition>
       <expression variable="volume_cee_fiche"><![CDATA[1900]]></expression>
     </regle>
     <regle>

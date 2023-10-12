@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0"?>
 <?xml-model href="./regles.xsd"?>
 <declarations>
+
     <declaration scope="*">
         <regle>
             <description><![CDATA[Zone climatique : Ain]]></description>
@@ -858,7 +859,7 @@
             <description><![CDATA[Montant forfaitaire : Electricité - H3]]></description>
             <condition><![CDATA[zone_climatique == 'H3']]></condition>
             <condition><![CDATA[energie_chauffage == 'ELECTRICITE']]></condition>
-            <expression variable="volume_cee_fiche"><![CDATA[2800]]></expression>
+            <expression variable="volume_cee_fiche"><![CDATA[4200]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Combustible - H3]]></description>
@@ -1118,7 +1119,6 @@
             <expression variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></expression>
         </regle>
     </declaration>
-
     <declaration scope="BAR-EQ-110">
         <regle>
             <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
@@ -1298,7 +1298,6 @@
             <expression variable="volume_cee_fiche"><![CDATA[volume_cee_fiche + 410]]></expression>
         </regle>
     </declaration>
-
     <declaration scope="BAR-SE-104">
         <regle>
             <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
@@ -1744,60 +1743,59 @@
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Chaudière hors condensation - H1]]></description>
-            <condition><![CDATA[type_batiment == 'CHAUDIERE_HORS_CONDENSATION']]></condition>
+            <condition><![CDATA[type_equipement_existant == 'CHAUDIERE_HORS_CONDENSATION']]></condition>
             <condition><![CDATA[zone_climatique == 'H1']]></condition>
             <expression variable="volume_cee_fiche"><![CDATA[12600]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Chaudière hors condensation - H2]]></description>
-            <condition><![CDATA[type_batiment == 'CHAUDIERE_HORS_CONDENSATION']]></condition>
+            <condition><![CDATA[type_equipement_existant == 'CHAUDIERE_HORS_CONDENSATION']]></condition>
             <condition><![CDATA[zone_climatique == 'H2']]></condition>
             <expression variable="volume_cee_fiche"><![CDATA[12100]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Chaudière hors condensation - H3]]></description>
-            <condition><![CDATA[type_batiment == 'CHAUDIERE_HORS_CONDENSATION']]></condition>
+            <condition><![CDATA[type_equipement_existant == 'CHAUDIERE_HORS_CONDENSATION']]></condition>
             <condition><![CDATA[zone_climatique == 'H3']]></condition>
             <expression variable="volume_cee_fiche"><![CDATA[8900]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Chaudière condensation - H1]]></description>
-            <condition><![CDATA[type_batiment == 'CHAUDIERE_CONDENSATION']]></condition>
+            <condition><![CDATA[type_equipement_existant == 'CHAUDIERE_CONDENSATION']]></condition>
             <condition><![CDATA[zone_climatique == 'H1']]></condition>
             <expression variable="volume_cee_fiche"><![CDATA[4200]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Chaudière condensation - H2]]></description>
-            <condition><![CDATA[type_batiment == 'CHAUDIERE_CONDENSATION']]></condition>
+            <condition><![CDATA[type_equipement_existant == 'CHAUDIERE_CONDENSATION']]></condition>
             <condition><![CDATA[zone_climatique == 'H2']]></condition>
             <expression variable="volume_cee_fiche"><![CDATA[3900]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Chaudière condensation - H3]]></description>
-            <condition><![CDATA[type_batiment == 'CHAUDIERE_CONDENSATION']]></condition>
+            <condition><![CDATA[type_equipement_existant == 'CHAUDIERE_CONDENSATION']]></condition>
             <condition><![CDATA[zone_climatique == 'H3']]></condition>
             <expression variable="volume_cee_fiche"><![CDATA[2800]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Réseau de chaleur - H1]]></description>
-            <condition><![CDATA[type_batiment == 'RESEAU_CHALEUR']]></condition>
+            <condition><![CDATA[type_equipement_existant == 'RESEAU_CHALEUR']]></condition>
             <condition><![CDATA[zone_climatique == 'H1']]></condition>
             <expression variable="volume_cee_fiche"><![CDATA[4200]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Réseau de chaleur - H2]]></description>
-            <condition><![CDATA[type_batiment == 'RESEAU_CHALEUR']]></condition>
+            <condition><![CDATA[type_equipement_existant == 'RESEAU_CHALEUR']]></condition>
             <condition><![CDATA[zone_climatique == 'H2']]></condition>
             <expression variable="volume_cee_fiche"><![CDATA[3900]]></expression>
         </regle>
         <regle>
             <description><![CDATA[Montant forfaitaire : Réseau de chaleur - H3]]></description>
-            <condition><![CDATA[type_batiment == 'RESEAU_CHALEUR']]></condition>
+            <condition><![CDATA[type_equipement_existant == 'RESEAU_CHALEUR']]></condition>
             <condition><![CDATA[zone_climatique == 'H3']]></condition>
             <expression variable="volume_cee_fiche"><![CDATA[2800]]></expression>
         </regle>
     </declaration>
-
     <declaration scope="BAR-TH-101">
         <regle>
             <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
@@ -2342,7 +2340,6 @@
             <expression variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.19]]></expression>
         </regle>
     </declaration>
-
     <declaration scope="BAR-TH-110">
         <regle>
             <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
@@ -2908,7 +2905,6 @@
             <expression variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.1]]></expression>
         </regle>
     </declaration>
-
     <declaration scope="BAR-TH-122">
         <regle>
             <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
@@ -3827,7 +3823,6 @@
             <expression variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 2.5]]></expression>
         </regle>
     </declaration>
-
     <declaration scope="BAR-TH-130">
         <regle>
             <description><![CDATA[Bâtiment neuf]]></description>
@@ -4079,7 +4074,6 @@
             <expression variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * puissance_nominale]]></expression>
         </regle>
     </declaration>
-
     <declaration scope="BAR-TH-141">
         <regle>
             <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
@@ -4308,7 +4302,6 @@
             <expression variable="volume_cee_fiche"><![CDATA[11900]]></expression>
         </regle>
     </declaration>
-
     <declaration scope="BAR-TH-150">
         <regle>
             <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>
@@ -5350,7 +5343,6 @@
             <expression variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 2.5]]></expression>
         </regle>
     </declaration>
-
     <declaration scope="BAR-TH-160">
         <regle>
             <description><![CDATA[Bâtiment existant depuis plus de deux ans]]></description>

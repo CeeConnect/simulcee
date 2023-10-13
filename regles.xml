@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?xml-model href="../dist/regles.xsd"?>
+<?xml-model href="./regles.xsd"?>
 <declarations>
   <declaration scope="*">
     <regle>
@@ -7,7 +7,7 @@
       <condition><![CDATA[code_departement == '01']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.88]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.55]]></definition>
     </regle>
@@ -16,7 +16,7 @@
       <condition><![CDATA[code_departement == '02']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
@@ -25,7 +25,7 @@
       <condition><![CDATA[code_departement == '03']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
     </regle>
@@ -34,7 +34,7 @@
       <condition><![CDATA[code_departement == '04']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
     </regle>
@@ -43,7 +43,7 @@
       <condition><![CDATA[code_departement == '05']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.88]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.53]]></definition>
     </regle>
@@ -52,7 +52,7 @@
       <condition><![CDATA[code_departement == '06']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.8]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.43]]></definition>
     </regle>
@@ -61,7 +61,7 @@
       <condition><![CDATA[code_departement == '07']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
     </regle>
@@ -70,7 +70,7 @@
       <condition><![CDATA[code_departement == '08']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
     </regle>
@@ -79,7 +79,7 @@
       <condition><![CDATA[code_departement == '09']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.95]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.74]]></definition>
     </regle>
@@ -88,7 +88,7 @@
       <condition><![CDATA[code_departement == '10']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
@@ -97,7 +97,7 @@
       <condition><![CDATA[code_departement == '11']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.95]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.74]]></definition>
     </regle>
@@ -106,7 +106,7 @@
       <condition><![CDATA[code_departement == '12']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
     </regle>
@@ -115,7 +115,7 @@
       <condition><![CDATA[code_departement == '13']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -124,7 +124,7 @@
       <condition><![CDATA[code_departement == '14']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
     </regle>
@@ -133,7 +133,7 @@
       <condition><![CDATA[code_departement == '15']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.65]]></definition>
     </regle>
@@ -142,7 +142,7 @@
       <condition><![CDATA[code_departement == '16']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.7]]></definition>
     </regle>
@@ -151,7 +151,7 @@
       <condition><![CDATA[code_departement == '17']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
     </regle>
@@ -160,7 +160,7 @@
       <condition><![CDATA[code_departement == '18']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -169,7 +169,7 @@
       <condition><![CDATA[code_departement == '19']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.68]]></definition>
     </regle>
@@ -178,7 +178,7 @@
       <condition><![CDATA[code_departement == '2A']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.58]]></definition>
     </regle>
@@ -187,7 +187,7 @@
       <condition><![CDATA[code_departement == '2B']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.71]]></definition>
     </regle>
@@ -196,7 +196,7 @@
       <condition><![CDATA[code_departement == '21']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.65]]></definition>
     </regle>
@@ -205,7 +205,7 @@
       <condition><![CDATA[code_departement == '22']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.95]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
     </regle>
@@ -214,7 +214,7 @@
       <condition><![CDATA[code_departement == '23']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
     </regle>
@@ -223,7 +223,7 @@
       <condition><![CDATA[code_departement == '24']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.7]]></definition>
     </regle>
@@ -232,7 +232,7 @@
       <condition><![CDATA[code_departement == '25']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.59]]></definition>
     </regle>
@@ -241,7 +241,7 @@
       <condition><![CDATA[code_departement == '26']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.57]]></definition>
     </regle>
@@ -250,7 +250,7 @@
       <condition><![CDATA[code_departement == '27']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.69]]></definition>
     </regle>
@@ -259,7 +259,7 @@
       <condition><![CDATA[code_departement == '28']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.59]]></definition>
     </regle>
@@ -268,7 +268,7 @@
       <condition><![CDATA[code_departement == '29']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.95]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
@@ -277,7 +277,7 @@
       <condition><![CDATA[code_departement == '30']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.95]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.77]]></definition>
     </regle>
@@ -286,7 +286,7 @@
       <condition><![CDATA[code_departement == '31']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
@@ -295,7 +295,7 @@
       <condition><![CDATA[code_departement == '32']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
     </regle>
@@ -304,7 +304,7 @@
       <condition><![CDATA[code_departement == '33']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.88]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.55]]></definition>
     </regle>
@@ -313,7 +313,7 @@
       <condition><![CDATA[code_departement == '34']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.68]]></definition>
     </regle>
@@ -322,7 +322,7 @@
       <condition><![CDATA[code_departement == '35']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -331,7 +331,7 @@
       <condition><![CDATA[code_departement == '36']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -340,7 +340,7 @@
       <condition><![CDATA[code_departement == '37']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
     </regle>
@@ -349,7 +349,7 @@
       <condition><![CDATA[code_departement == '38']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
     </regle>
@@ -358,7 +358,7 @@
       <condition><![CDATA[code_departement == '39']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
     </regle>
@@ -367,7 +367,7 @@
       <condition><![CDATA[code_departement == '40']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
     </regle>
@@ -376,7 +376,7 @@
       <condition><![CDATA[code_departement == '41']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -385,7 +385,7 @@
       <condition><![CDATA[code_departement == '42']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
@@ -394,7 +394,7 @@
       <condition><![CDATA[code_departement == '43']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.68]]></definition>
     </regle>
@@ -403,7 +403,7 @@
       <condition><![CDATA[code_departement == '44']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
     </regle>
@@ -412,7 +412,7 @@
       <condition><![CDATA[code_departement == '45']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -421,7 +421,7 @@
       <condition><![CDATA[code_departement == '46']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.7]]></definition>
     </regle>
@@ -430,7 +430,7 @@
       <condition><![CDATA[code_departement == '47']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.72]]></definition>
     </regle>
@@ -439,7 +439,7 @@
       <condition><![CDATA[code_departement == '48']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.59]]></definition>
     </regle>
@@ -448,7 +448,7 @@
       <condition><![CDATA[code_departement == '49']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.56]]></definition>
     </regle>
@@ -457,7 +457,7 @@
       <condition><![CDATA[code_departement == '50']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.59]]></definition>
     </regle>
@@ -466,7 +466,7 @@
       <condition><![CDATA[code_departement == '51']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.85]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.51]]></definition>
     </regle>
@@ -475,7 +475,7 @@
       <condition><![CDATA[code_departement == '52']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
     </regle>
@@ -484,7 +484,7 @@
       <condition><![CDATA[code_departement == '53']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
     </regle>
@@ -493,7 +493,7 @@
       <condition><![CDATA[code_departement == '54']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
     </regle>
@@ -502,7 +502,7 @@
       <condition><![CDATA[code_departement == '55']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
     </regle>
@@ -511,7 +511,7 @@
       <condition><![CDATA[code_departement == '56']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.66]]></definition>
     </regle>
@@ -520,7 +520,7 @@
       <condition><![CDATA[code_departement == '57']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -529,7 +529,7 @@
       <condition><![CDATA[code_departement == '58']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
@@ -538,7 +538,7 @@
       <condition><![CDATA[code_departement == '59']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
@@ -547,7 +547,7 @@
       <condition><![CDATA[code_departement == '60']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.55]]></definition>
     </regle>
@@ -556,7 +556,7 @@
       <condition><![CDATA[code_departement == '61']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
@@ -565,7 +565,7 @@
       <condition><![CDATA[code_departement == '62']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.66]]></definition>
     </regle>
@@ -574,7 +574,7 @@
       <condition><![CDATA[code_departement == '63']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.59]]></definition>
     </regle>
@@ -583,7 +583,7 @@
       <condition><![CDATA[code_departement == '64']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
     </regle>
@@ -592,7 +592,7 @@
       <condition><![CDATA[code_departement == '65']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.66]]></definition>
     </regle>
@@ -601,7 +601,7 @@
       <condition><![CDATA[code_departement == '66']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.72]]></definition>
     </regle>
@@ -610,7 +610,7 @@
       <condition><![CDATA[code_departement == '67']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -619,7 +619,7 @@
       <condition><![CDATA[code_departement == '68']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -628,7 +628,7 @@
       <condition><![CDATA[code_departement == '69']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.58]]></definition>
     </regle>
@@ -637,7 +637,7 @@
       <condition><![CDATA[code_departement == '70']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.66]]></definition>
     </regle>
@@ -646,7 +646,7 @@
       <condition><![CDATA[code_departement == '71']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -655,7 +655,7 @@
       <condition><![CDATA[code_departement == '72']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
@@ -664,7 +664,7 @@
       <condition><![CDATA[code_departement == '73']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.53]]></definition>
     </regle>
@@ -673,7 +673,7 @@
       <condition><![CDATA[code_departement == '74']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.85]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.52]]></definition>
     </regle>
@@ -682,7 +682,7 @@
       <condition><![CDATA[code_departement == '75']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.8]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.51]]></definition>
     </regle>
@@ -691,7 +691,7 @@
       <condition><![CDATA[code_departement == '76']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.54]]></definition>
     </regle>
@@ -700,7 +700,7 @@
       <condition><![CDATA[code_departement == '77']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
     </regle>
@@ -709,7 +709,7 @@
       <condition><![CDATA[code_departement == '78']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.53]]></definition>
     </regle>
@@ -718,7 +718,7 @@
       <condition><![CDATA[code_departement == '79']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
     </regle>
@@ -727,7 +727,7 @@
       <condition><![CDATA[code_departement == '80']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
     </regle>
@@ -736,7 +736,7 @@
       <condition><![CDATA[code_departement == '81']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.96]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.74]]></definition>
     </regle>
@@ -745,7 +745,7 @@
       <condition><![CDATA[code_departement == '82']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.96]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.77]]></definition>
     </regle>
@@ -754,7 +754,7 @@
       <condition><![CDATA[code_departement == '83']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
     </regle>
@@ -763,7 +763,7 @@
       <condition><![CDATA[code_departement == '84']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.7]]></definition>
     </regle>
@@ -772,7 +772,7 @@
       <condition><![CDATA[code_departement == '85']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
@@ -781,7 +781,7 @@
       <condition><![CDATA[code_departement == '86']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.65]]></definition>
     </regle>
@@ -790,7 +790,7 @@
       <condition><![CDATA[code_departement == '87']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
@@ -799,7 +799,7 @@
       <condition><![CDATA[code_departement == '88']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
     </regle>
@@ -808,7 +808,7 @@
       <condition><![CDATA[code_departement == '89']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.68]]></definition>
     </regle>
@@ -817,7 +817,7 @@
       <condition><![CDATA[code_departement == '90']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
     </regle>
@@ -826,7 +826,7 @@
       <condition><![CDATA[code_departement == '91']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.55]]></definition>
     </regle>
@@ -835,7 +835,7 @@
       <condition><![CDATA[code_departement == '92']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.82]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.46]]></definition>
     </regle>
@@ -844,7 +844,7 @@
       <condition><![CDATA[code_departement == '93']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
     </regle>
@@ -853,7 +853,7 @@
       <condition><![CDATA[code_departement == '94']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.86]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.53]]></definition>
     </regle>
@@ -862,7 +862,7 @@
       <condition><![CDATA[code_departement == '95']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.58]]></definition>
     </regle>
@@ -871,7 +871,7 @@
       <condition><![CDATA[code_departement == '971']]></condition>
       <definition variable="metropole"><![CDATA[0]]></definition>
       <definition variable="outre_mer"><![CDATA[1]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>
@@ -880,7 +880,7 @@
       <condition><![CDATA[code_departement == '972']]></condition>
       <definition variable="metropole"><![CDATA[0]]></definition>
       <definition variable="outre_mer"><![CDATA[1]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>
@@ -889,7 +889,7 @@
       <condition><![CDATA[code_departement == '973']]></condition>
       <definition variable="metropole"><![CDATA[0]]></definition>
       <definition variable="outre_mer"><![CDATA[1]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>
@@ -898,7 +898,7 @@
       <condition><![CDATA[code_departement == '974']]></condition>
       <definition variable="metropole"><![CDATA[0]]></definition>
       <definition variable="outre_mer"><![CDATA[1]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>
@@ -907,7 +907,7 @@
       <condition><![CDATA[code_departement == '975']]></condition>
       <definition variable="metropole"><![CDATA[0]]></definition>
       <definition variable="outre_mer"><![CDATA[1]]></definition>
-      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>

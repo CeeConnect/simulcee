@@ -52,6 +52,7 @@
                 <xs:element name="condition" minOccurs="0" maxOccurs="unbounded" />
                 <xs:element name="definition" type="definitionType" minOccurs="0" maxOccurs="unbounded" />
             </xs:sequence>
+            <xs:attribute name="iterable" type="xs:string" />
         </xs:complexType>
     </xs:element>
 </xs:schema>

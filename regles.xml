@@ -1,716 +1,961 @@
-<?xml version="1.0" ?>
-<declarations >
-
+<?xml version="1.0"?>
+<?xml-model href="../dist/regles.xsd"?>
+<declarations>
   <declaration scope="*">
     <regle>
-      <description><![CDATA[Zone climatique : Ain]]></description>
+      <description><![CDATA[Département : Ain]]></description>
       <condition><![CDATA[code_departement == '01']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.88]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.55]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Aisne]]></description>
+      <description><![CDATA[Département : Aisne]]></description>
       <condition><![CDATA[code_departement == '02']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Allier]]></description>
+      <description><![CDATA[Département : Allier]]></description>
       <condition><![CDATA[code_departement == '03']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Hautes Alpes]]></description>
-      <condition><![CDATA[code_departement == '05']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Ardennes]]></description>
-      <condition><![CDATA[code_departement == '08']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Aube]]></description>
-      <condition><![CDATA[code_departement == '10']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Calvados]]></description>
-      <condition><![CDATA[code_departement == '14']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Cantal]]></description>
-      <condition><![CDATA[code_departement == '15']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Corrèze]]></description>
-      <condition><![CDATA[code_departement == '19']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Cote d’or]]></description>
-      <condition><![CDATA[code_departement == '21']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Creuse]]></description>
-      <condition><![CDATA[code_departement == '23']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Doubs]]></description>
-      <condition><![CDATA[code_departement == '25']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Eure]]></description>
-      <condition><![CDATA[code_departement == '27']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Eure et Loir]]></description>
-      <condition><![CDATA[code_departement == '28']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Isère]]></description>
-      <condition><![CDATA[code_departement == '38']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Jura]]></description>
-      <condition><![CDATA[code_departement == '39']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Loire]]></description>
-      <condition><![CDATA[code_departement == '42']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Haute Loire]]></description>
-      <condition><![CDATA[code_departement == '43']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Loiret]]></description>
-      <condition><![CDATA[code_departement == '45']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Marne]]></description>
-      <condition><![CDATA[code_departement == '51']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Haute Marne]]></description>
-      <condition><![CDATA[code_departement == '52']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Meurthe et Moselle]]></description>
-      <condition><![CDATA[code_departement == '54']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Meuse]]></description>
-      <condition><![CDATA[code_departement == '55']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Moselle]]></description>
-      <condition><![CDATA[code_departement == '57']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Nièvre]]></description>
-      <condition><![CDATA[code_departement == '58']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Nord]]></description>
-      <condition><![CDATA[code_departement == '59']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Oise]]></description>
-      <condition><![CDATA[code_departement == '60']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Orne]]></description>
-      <condition><![CDATA[code_departement == '61']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Pas de Calais]]></description>
-      <condition><![CDATA[code_departement == '62']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Puy de Dôme]]></description>
-      <condition><![CDATA[code_departement == '63']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Bas Rhin]]></description>
-      <condition><![CDATA[code_departement == '67']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Haut Rhin]]></description>
-      <condition><![CDATA[code_departement == '68']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Rhône]]></description>
-      <condition><![CDATA[code_departement == '69']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Haute Saône]]></description>
-      <condition><![CDATA[code_departement == '70']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Saône et Loire]]></description>
-      <condition><![CDATA[code_departement == '71']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Savoie]]></description>
-      <condition><![CDATA[code_departement == '73']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Haute Savoie]]></description>
-      <condition><![CDATA[code_departement == '74']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Paris]]></description>
-      <condition><![CDATA[code_departement == '75']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Seine Maritime]]></description>
-      <condition><![CDATA[code_departement == '76']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Seine et Marne]]></description>
-      <condition><![CDATA[code_departement == '77']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Yvelines]]></description>
-      <condition><![CDATA[code_departement == '78']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Somme]]></description>
-      <condition><![CDATA[code_departement == '80']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Haute Vienne]]></description>
-      <condition><![CDATA[code_departement == '87']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Vosges]]></description>
-      <condition><![CDATA[code_departement == '88']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Yonne]]></description>
-      <condition><![CDATA[code_departement == '89']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Territoire de Belfort]]></description>
-      <condition><![CDATA[code_departement == '90']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Essonne]]></description>
-      <condition><![CDATA[code_departement == '91']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Hauts de Seine]]></description>
-      <condition><![CDATA[code_departement == '92']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Seine Saint Denis]]></description>
-      <condition><![CDATA[code_departement == '93']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Val de Marne]]></description>
-      <condition><![CDATA[code_departement == '94']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Val d’Oise]]></description>
-      <condition><![CDATA[code_departement == '95']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H1']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Alpes de Haute Provence]]></description>
+      <description><![CDATA[Département : Alpes de Haute Provence]]></description>
       <condition><![CDATA[code_departement == '04']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Ardèche]]></description>
-      <condition><![CDATA[code_departement == '07']]></condition>
+      <description><![CDATA[Département : Hautes Alpes]]></description>
+      <condition><![CDATA[code_departement == '05']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.88]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.53]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Ariège]]></description>
-      <condition><![CDATA[code_departement == '09']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Aveyron]]></description>
-      <condition><![CDATA[code_departement == '12']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Charente]]></description>
-      <condition><![CDATA[code_departement == '16']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Charente Maritime]]></description>
-      <condition><![CDATA[code_departement == '17']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Cher]]></description>
-      <condition><![CDATA[code_departement == '18']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Cotes d’Armor]]></description>
-      <condition><![CDATA[code_departement == '22']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Dordogne]]></description>
-      <condition><![CDATA[code_departement == '24']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Drome]]></description>
-      <condition><![CDATA[code_departement == '26']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Finistère]]></description>
-      <condition><![CDATA[code_departement == '29']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Haute Garonne]]></description>
-      <condition><![CDATA[code_departement == '31']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Gers]]></description>
-      <condition><![CDATA[code_departement == '32']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Gironde]]></description>
-      <condition><![CDATA[code_departement == '33']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Ile et Vilaine]]></description>
-      <condition><![CDATA[code_departement == '35']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Indre]]></description>
-      <condition><![CDATA[code_departement == '36']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Indre et Loire]]></description>
-      <condition><![CDATA[code_departement == '37']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Landes]]></description>
-      <condition><![CDATA[code_departement == '40']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Loir et Cher]]></description>
-      <condition><![CDATA[code_departement == '41']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Loire Atlantique]]></description>
-      <condition><![CDATA[code_departement == '44']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Lot]]></description>
-      <condition><![CDATA[code_departement == '46']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Lot et Garonne]]></description>
-      <condition><![CDATA[code_departement == '47']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Lozère]]></description>
-      <condition><![CDATA[code_departement == '48']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Maine et Loire]]></description>
-      <condition><![CDATA[code_departement == '49']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Manche]]></description>
-      <condition><![CDATA[code_departement == '50']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Mayenne]]></description>
-      <condition><![CDATA[code_departement == '53']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Morbihan]]></description>
-      <condition><![CDATA[code_departement == '56']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Pyrénées Atlantiques]]></description>
-      <condition><![CDATA[code_departement == '64']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Hautes Pyrénées]]></description>
-      <condition><![CDATA[code_departement == '65']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Sarthe]]></description>
-      <condition><![CDATA[code_departement == '72']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Deux Sèvres]]></description>
-      <condition><![CDATA[code_departement == '79']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Tarn]]></description>
-      <condition><![CDATA[code_departement == '81']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Tarn et Garonne]]></description>
-      <condition><![CDATA[code_departement == '82']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Vaucluse]]></description>
-      <condition><![CDATA[code_departement == '84']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Vendée]]></description>
-      <condition><![CDATA[code_departement == '85']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Vienne]]></description>
-      <condition><![CDATA[code_departement == '86']]></condition>
-      <definition variable="metropole"><![CDATA[1]]></definition>
-      <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Zone climatique : Alpes Maritimes]]></description>
+      <description><![CDATA[Département : Alpes Maritimes]]></description>
       <condition><![CDATA[code_departement == '06']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.8]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.43]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Aude]]></description>
+      <description><![CDATA[Département : Ardèche]]></description>
+      <condition><![CDATA[code_departement == '07']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Ardennes]]></description>
+      <condition><![CDATA[code_departement == '08']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Ariège]]></description>
+      <condition><![CDATA[code_departement == '09']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.95]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.74]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Aube]]></description>
+      <condition><![CDATA[code_departement == '10']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Aude]]></description>
       <condition><![CDATA[code_departement == '11']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.95]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.74]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Bouches Du Rhône]]></description>
+      <description><![CDATA[Département : Aveyron]]></description>
+      <condition><![CDATA[code_departement == '12']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Bouches Du Rhône]]></description>
       <condition><![CDATA[code_departement == '13']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Corse]]></description>
-      <condition><![CDATA[code_departement == '20']]></condition>
+      <description><![CDATA[Département : Calvados]]></description>
+      <condition><![CDATA[code_departement == '14']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Gard]]></description>
+      <description><![CDATA[Département : Cantal]]></description>
+      <condition><![CDATA[code_departement == '15']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.65]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Charente]]></description>
+      <condition><![CDATA[code_departement == '16']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.7]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Charente Maritime]]></description>
+      <condition><![CDATA[code_departement == '17']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Cher]]></description>
+      <condition><![CDATA[code_departement == '18']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Corrèze]]></description>
+      <condition><![CDATA[code_departement == '19']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.68]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Corse du Sud]]></description>
+      <condition><![CDATA[code_departement == '2A']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.58]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Haute Corse]]></description>
+      <condition><![CDATA[code_departement == '2B']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.71]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Cote d'or]]></description>
+      <condition><![CDATA[code_departement == '21']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.65]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Cotes d'Armor]]></description>
+      <condition><![CDATA[code_departement == '22']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.95]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Creuse]]></description>
+      <condition><![CDATA[code_departement == '23']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Dordogne]]></description>
+      <condition><![CDATA[code_departement == '24']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.7]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Doubs]]></description>
+      <condition><![CDATA[code_departement == '25']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.59]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Drome]]></description>
+      <condition><![CDATA[code_departement == '26']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.57]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Eure]]></description>
+      <condition><![CDATA[code_departement == '27']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.69]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Eure et Loir]]></description>
+      <condition><![CDATA[code_departement == '28']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.59]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Finistère]]></description>
+      <condition><![CDATA[code_departement == '29']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.95]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Gard]]></description>
       <condition><![CDATA[code_departement == '30']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.95]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.77]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Hérault]]></description>
+      <description><![CDATA[Département : Haute Garonne]]></description>
+      <condition><![CDATA[code_departement == '31']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Gers]]></description>
+      <condition><![CDATA[code_departement == '32']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Gironde]]></description>
+      <condition><![CDATA[code_departement == '33']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.88]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.55]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Hérault]]></description>
       <condition><![CDATA[code_departement == '34']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.68]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Pyrénées Orientales]]></description>
+      <description><![CDATA[Département : Ile et Vilaine]]></description>
+      <condition><![CDATA[code_departement == '35']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Indre]]></description>
+      <condition><![CDATA[code_departement == '36']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Indre et Loire]]></description>
+      <condition><![CDATA[code_departement == '37']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Isère]]></description>
+      <condition><![CDATA[code_departement == '38']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Jura]]></description>
+      <condition><![CDATA[code_departement == '39']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Landes]]></description>
+      <condition><![CDATA[code_departement == '40']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Loir et Cher]]></description>
+      <condition><![CDATA[code_departement == '41']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Loire]]></description>
+      <condition><![CDATA[code_departement == '42']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Haute Loire]]></description>
+      <condition><![CDATA[code_departement == '43']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.68]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Loire Atlantique]]></description>
+      <condition><![CDATA[code_departement == '44']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Loiret]]></description>
+      <condition><![CDATA[code_departement == '45']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Lot]]></description>
+      <condition><![CDATA[code_departement == '46']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.7]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Lot et Garonne]]></description>
+      <condition><![CDATA[code_departement == '47']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.72]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Lozère]]></description>
+      <condition><![CDATA[code_departement == '48']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.59]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Maine et Loire]]></description>
+      <condition><![CDATA[code_departement == '49']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.56]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Manche]]></description>
+      <condition><![CDATA[code_departement == '50']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.59]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Marne]]></description>
+      <condition><![CDATA[code_departement == '51']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.85]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.51]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Haute Marne]]></description>
+      <condition><![CDATA[code_departement == '52']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Mayenne]]></description>
+      <condition><![CDATA[code_departement == '53']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Meurthe et Moselle]]></description>
+      <condition><![CDATA[code_departement == '54']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Meuse]]></description>
+      <condition><![CDATA[code_departement == '55']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.67]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Morbihan]]></description>
+      <condition><![CDATA[code_departement == '56']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.66]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Moselle]]></description>
+      <condition><![CDATA[code_departement == '57']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Nièvre]]></description>
+      <condition><![CDATA[code_departement == '58']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Nord]]></description>
+      <condition><![CDATA[code_departement == '59']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Oise]]></description>
+      <condition><![CDATA[code_departement == '60']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.55]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Orne]]></description>
+      <condition><![CDATA[code_departement == '61']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Pas de Calais]]></description>
+      <condition><![CDATA[code_departement == '62']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.66]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Puy de Dôme]]></description>
+      <condition><![CDATA[code_departement == '63']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.59]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Pyrénées Atlantiques]]></description>
+      <condition><![CDATA[code_departement == '64']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.6]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Hautes Pyrénées]]></description>
+      <condition><![CDATA[code_departement == '65']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.66]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Pyrénées Orientales]]></description>
       <condition><![CDATA[code_departement == '66']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.72]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Var]]></description>
+      <description><![CDATA[Département : Bas Rhin]]></description>
+      <condition><![CDATA[code_departement == '67']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Haut Rhin]]></description>
+      <condition><![CDATA[code_departement == '68']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Rhône]]></description>
+      <condition><![CDATA[code_departement == '69']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.58]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Haute Saône]]></description>
+      <condition><![CDATA[code_departement == '70']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.66]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Saône et Loire]]></description>
+      <condition><![CDATA[code_departement == '71']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Sarthe]]></description>
+      <condition><![CDATA[code_departement == '72']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Savoie]]></description>
+      <condition><![CDATA[code_departement == '73']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.53]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Haute Savoie]]></description>
+      <condition><![CDATA[code_departement == '74']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.85]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.52]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Paris]]></description>
+      <condition><![CDATA[code_departement == '75']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.8]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.51]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Seine Maritime]]></description>
+      <condition><![CDATA[code_departement == '76']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.54]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Seine et Marne]]></description>
+      <condition><![CDATA[code_departement == '77']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Yvelines]]></description>
+      <condition><![CDATA[code_departement == '78']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.87]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.53]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Deux Sèvres]]></description>
+      <condition><![CDATA[code_departement == '79']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Somme]]></description>
+      <condition><![CDATA[code_departement == '80']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Tarn]]></description>
+      <condition><![CDATA[code_departement == '81']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.96]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.74]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Tarn et Garonne]]></description>
+      <condition><![CDATA[code_departement == '82']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.96]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.77]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Var]]></description>
       <condition><![CDATA[code_departement == '83']]></condition>
       <definition variable="metropole"><![CDATA[1]]></definition>
       <definition variable="outre_mer"><![CDATA[0]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Saint-Pierre-et-Miquelon]]></description>
-      <condition><![CDATA[code_departement == '975']]></condition>
-      <definition variable="metropole"><![CDATA[0]]></definition>
-      <definition variable="outre_mer"><![CDATA[1]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H2']]></definition>
+      <description><![CDATA[Département : Vaucluse]]></description>
+      <condition><![CDATA[code_departement == '84']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.7]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Guadeloupe]]></description>
+      <description><![CDATA[Département : Vendée]]></description>
+      <condition><![CDATA[code_departement == '85']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Vienne]]></description>
+      <condition><![CDATA[code_departement == '86']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.65]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Haute Vienne]]></description>
+      <condition><![CDATA[code_departement == '87']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.92]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.63]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Vosges]]></description>
+      <condition><![CDATA[code_departement == '88']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.91]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Yonne]]></description>
+      <condition><![CDATA[code_departement == '89']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.93]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.68]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Territoire de Belfort]]></description>
+      <condition><![CDATA[code_departement == '90']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.64]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Essonne]]></description>
+      <condition><![CDATA[code_departement == '91']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.55]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Hauts de Seine]]></description>
+      <condition><![CDATA[code_departement == '92']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.82]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.46]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Seine Saint Denis]]></description>
+      <condition><![CDATA[code_departement == '93']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.9]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.62]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Val de Marne]]></description>
+      <condition><![CDATA[code_departement == '94']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.86]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.53]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Val d'Oise]]></description>
+      <condition><![CDATA[code_departement == '95']]></condition>
+      <definition variable="metropole"><![CDATA[1]]></definition>
+      <definition variable="outre_mer"><![CDATA[0]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H1]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.89]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.58]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Département : Guadeloupe]]></description>
       <condition><![CDATA[code_departement == '971']]></condition>
       <definition variable="metropole"><![CDATA[0]]></definition>
       <definition variable="outre_mer"><![CDATA[1]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Martinique]]></description>
+      <description><![CDATA[Département : Martinique]]></description>
       <condition><![CDATA[code_departement == '972']]></condition>
       <definition variable="metropole"><![CDATA[0]]></definition>
       <definition variable="outre_mer"><![CDATA[1]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : Guyane]]></description>
+      <description><![CDATA[Département : Guyane]]></description>
       <condition><![CDATA[code_departement == '973']]></condition>
       <definition variable="metropole"><![CDATA[0]]></definition>
       <definition variable="outre_mer"><![CDATA[1]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Zone climatique : La Réunion]]></description>
+      <description><![CDATA[Département : La Réunion]]></description>
       <condition><![CDATA[code_departement == '974']]></condition>
       <definition variable="metropole"><![CDATA[0]]></definition>
       <definition variable="outre_mer"><![CDATA[1]]></definition>
-      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="zone_climatique"><![CDATA[H3]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Initialisation]]></description>
-      <definition variable="volume_cee_fiche"><![CDATA[0]]></definition>
-      <definition variable="volume_cee_fiche"><![CDATA[0]]></definition>
-      <definition variable="volume_cee_bonification"><![CDATA[0]]></definition>
-      <definition variable="volume_cee_classique"><![CDATA[0]]></definition>
-      <definition variable="volume_cee_precarite"><![CDATA[0]]></definition>
-      <definition variable="eligibilite_fiche"><![CDATA[0]]></definition>
-      <definition variable="eligibilite_bonification"><![CDATA[0]]></definition>
+      <description><![CDATA[Département : Saint-Pierre-et-Miquelon]]></description>
+      <condition><![CDATA[code_departement == '975']]></condition>
+      <definition variable="metropole"><![CDATA[0]]></definition>
+      <definition variable="outre_mer"><![CDATA[1]]></definition>
+      <definition variable="zone_climatique"><![CDATA[H2]]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="*">
+    <condition><![CDATA[secteur_application == 'BAR']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-01-01']]></condition>
+    <regle>
+      <definition variable="coefficient_precarite"><![CDATA[0]]></definition>
+      <definition variable="coefficient_modeste"><![CDATA[0]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Scénario précarité 8.1]]></description>
+      <condition><![CDATA[scenario_precarite == '8.1']]></condition>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE']]></condition>
+      <definition variable="coefficient_precarite"><![CDATA[1]]></definition>
+      <definition variable="coefficient_modeste"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Scénario précarité 8.1]]></description>
+      <condition><![CDATA[scenario_precarite == '8.1']]></condition>
+      <condition><![CDATA[categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="coefficient_precarite"><![CDATA[0]]></definition>
+      <definition variable="coefficient_modeste"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Scénario précarité 8.2]]></description>
+      <condition><![CDATA[scenario_precarite == '8.2']]></condition>
+      <definition variable="coefficient_precarite"><![CDATA[fraction_precarite_energetique]]></definition>
+      <definition variable="coefficient_modeste"><![CDATA[fraction_menages_modestes]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Scénario précarité 8.3]]></description>
+      <condition><![CDATA[scenario_precarite == '8.3']]></condition>
+      <definition variable="coefficient_precarite"><![CDATA[menages_tres_modestes / menages]]></definition>
+      <definition variable="coefficient_modeste"><![CDATA[menages_modestes / menages]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Scénario précarité 8.4]]></description>
+      <condition><![CDATA[scenario_precarite == '8.4']]></condition>
+      <definition variable="coefficient_precarite"><![CDATA[fraction_precarite_energetique]]></definition>
+      <definition variable="coefficient_modeste"><![CDATA[fraction_menages_modestes]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Scénario précarité 8.5]]></description>
+      <condition><![CDATA[scenario_precarite == '8.5']]></condition>
+      <definition variable="coefficient_precarite"><![CDATA[menages_tres_modestes / menages]]></definition>
+      <definition variable="coefficient_modeste"><![CDATA[menages_modestes / menages]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-EN-101">
@@ -721,28 +966,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-101v39-4">
-    <regle>
-      <description><![CDATA[Montant forfaitaire : H1]]></description>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[1700]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : H2]]></description>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[1400]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : H3]]></description>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[920]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Surface d'isolant (m²)]]></description>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
-    </regle>
-  </declaration>
-  <declaration scope="BAR-EN-101v54-5">
+  <declaration scope="BAR-EN-101">
+    <condition><![CDATA[date_engagement >= '2022-05-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -771,7 +996,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-102v39-2">
+  <declaration scope="BAR-EN-102">
+    <condition><![CDATA[date_engagement >= '2022-05-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -799,7 +1025,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-103v39-5">
+  <declaration scope="BAR-EN-103">
+    <condition><![CDATA[date_engagement >= '2022-05-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -827,7 +1054,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-104v14-1">
+  <declaration scope="BAR-EN-104">
+    <condition><![CDATA[date_engagement >= '2015-01-01' and date_engagement <= '2023-12-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Electricité - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -869,7 +1097,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-104v54-2">
+  <declaration scope="BAR-EN-104">
+    <condition><![CDATA[date_engagement >= '2024-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -890,7 +1119,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * surface]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-105v39-3">
+  <declaration scope="BAR-EN-105">
+    <condition><![CDATA[date_engagement >= '2022-05-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -918,7 +1148,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-106v33-4">
+  <declaration scope="BAR-EN-106">
+    <condition><![CDATA[date_engagement >= '2020-09-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison - Bâtiment existant]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -955,7 +1186,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-107v20-3">
+  <declaration scope="BAR-EN-107">
+    <condition><![CDATA[date_engagement >= '2016-03-13']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - Logement existant - 0.5 <= R < 1.2]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -1024,7 +1256,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-108v37-2">
+  <declaration scope="BAR-EN-108">
+    <condition><![CDATA[date_engagement >= '2021-04-01' and date_engagement <= '2023-12-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -1045,7 +1278,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-108v54-3">
+  <declaration scope="BAR-EN-108">
+    <condition><![CDATA[date_engagement >= '2024-01-01' and date_engagement <= '2028-06-30']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -1078,7 +1312,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-109v24-1">
+  <declaration scope="BAR-EN-109">
+    <condition><![CDATA[date_engagement >= '2016-12-23']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -1101,7 +1336,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EN-110v35-1">
+  <declaration scope="BAR-EN-110">
+    <condition><![CDATA[date_engagement >= '2020-08-03']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -1129,7 +1365,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EQ-110v15-1">
+  <declaration scope="BAR-EQ-110">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : IK = 10 - Détection de présence OU de lumière]]></description>
       <condition><![CDATA[indice_protection_chocs == 10]]></condition>
@@ -1166,7 +1403,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-EQ-115v28-1">
+  <declaration scope="BAR-EQ-115">
+    <condition><![CDATA[date_engagement >= '2019-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -1310,7 +1548,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-SE-104v19-1">
+  <declaration scope="BAR-SE-104">
+    <condition><![CDATA[date_engagement >= '2016-04-01']]></condition>
     <regle>
       <description><![CDATA[France métropolitaine]]></description>
       <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
@@ -1342,7 +1581,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-SE-105v28-1">
+  <declaration scope="BAR-SE-105">
+    <condition><![CDATA[date_engagement >= '2018-12-19']]></condition>
     <regle>
       <description><![CDATA[France métropolitaine]]></description>
       <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
@@ -1514,7 +1754,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-SE-106v32-1">
+  <declaration scope="BAR-SE-106">
+    <condition><![CDATA[date_engagement >= '2020-04-01']]></condition>
     <regle>
       <description><![CDATA[Maison ou appartement]]></description>
       <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
@@ -1655,7 +1896,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-SE-107v37-1">
+  <declaration scope="BAR-SE-107">
+    <condition><![CDATA[date_engagement >= '2020-12-31']]></condition>
     <regle>
       <description><![CDATA[Immeuble collectif]]></description>
       <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
@@ -1688,7 +1930,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-SE-108v48-1">
+  <declaration scope="BAR-SE-108">
+    <condition><![CDATA[date_engagement >= '2022-10-14']]></condition>
     <regle>
       <description><![CDATA[Maison ou appartement]]></description>
       <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
@@ -1739,7 +1982,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-SE-109v54-1">
+  <declaration scope="BAR-SE-109">
+    <condition><![CDATA[date_engagement >= '2023-09-30']]></condition>
     <regle>
       <description><![CDATA[Immeuble collectif]]></description>
       <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
@@ -1812,7 +2056,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-101v17-1">
+  <declaration scope="BAR-TH-101">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -1834,17 +2079,12 @@
       <description><![CDATA[Éligibilité]]></description>
       <condition><![CDATA[metropole == 1]]></condition>
       <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
-      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
-    </regle>
-  </declaration>
-  <declaration scope="BAR-TH-102">
-    <regle>
-      <description><![CDATA[Éligibilité]]></description>
       <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-102v17-1">
+  <declaration scope="BAR-TH-102">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
       <definition variable="volume_cee_fiche"><![CDATA[besoin_eau_chaude_sanitaire * (production_solaire_utile / besoin_eau_chaude_sanitaire) * 100 * 0.196]]></definition>
@@ -1858,7 +2098,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-104v41-3">
+  <declaration scope="BAR-TH-104">
+    <condition><![CDATA[date_engagement >= '2022-04-01' and date_engagement <= '2023-12-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 102% <= ηs < 110%]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -2065,7 +2306,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-106v23-2">
+  <declaration scope="BAR-TH-106">
+    <condition><![CDATA[date_engagement >= '2017-02-01' and date_engagement <= '2023-12-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -2149,7 +2391,8 @@
       <description><![CDATA[Immeuble collectif]]></description>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-107v14-1">
+  <declaration scope="BAR-TH-107">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1 - Pn <= 400 kW]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -2226,7 +2469,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[type_batiment == 'IMMEUBLE']]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-107-SEv14-1">
+  <declaration scope="BAR-TH-107-SE">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1 - Pn <= 400 kW]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -2350,7 +2594,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-110v16-1">
+  <declaration scope="BAR-TH-110">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -2424,7 +2669,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-111v17-1">
+  <declaration scope="BAR-TH-111">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1 - Électricité]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -2505,7 +2751,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-112v46-3">
+  <declaration scope="BAR-TH-112">
+    <condition><![CDATA[date_engagement >= '2022-10-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1 - 66% <= ηs < 72%]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -2569,7 +2816,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-113v41-3">
+  <declaration scope="BAR-TH-113">
+    <condition><![CDATA[date_engagement >= '2022-04-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -2594,7 +2842,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-116v17-1">
+  <declaration scope="BAR-TH-116">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -2668,7 +2917,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-117v14-1">
+  <declaration scope="BAR-TH-117">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -2741,7 +2991,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-118v14-1">
+  <declaration scope="BAR-TH-118">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - Électricité - H1]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -2910,7 +3161,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-122v15-1">
+  <declaration scope="BAR-TH-122">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -2957,7 +3209,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-123v17-1">
+  <declaration scope="BAR-TH-123">
+    <condition><![CDATA[date_engagement >= '2015-01-01' and date_engagement <= '2023-12-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -2978,7 +3231,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-123v54-2">
+  <declaration scope="BAR-TH-123">
+    <condition><![CDATA[date_engagement >= '2024-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -3007,7 +3261,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-124v35-3">
+  <declaration scope="BAR-TH-124">
+    <condition><![CDATA[date_engagement >= '2020-10-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Guadeloupe - Logement existant]]></description>
       <condition><![CDATA[code_departement == '971']]></condition>
@@ -3081,7 +3336,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-125v40-4">
+  <declaration scope="BAR-TH-125">
+    <condition><![CDATA[date_engagement >= '2022-04-01' and date_engagement <= '2023-12-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : VMC double flux autoréglable - Installation individuelle - H1]]></description>
       <condition><![CDATA[type_equipement == 'AUTOREGLABLE']]></condition>
@@ -3193,7 +3449,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-125v54-5">
+  <declaration scope="BAR-TH-125">
+    <condition><![CDATA[date_engagement >= '2024-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : VMC double flux autoréglable - Installation individuelle - H1]]></description>
       <condition><![CDATA[type_equipement == 'AUTOREGLABLE']]></condition>
@@ -3316,7 +3573,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[metropole == 1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-127v40-4">
+  <declaration scope="BAR-TH-127">
+    <condition><![CDATA[date_engagement >= '2022-04-01' and date_engagement <= '2023-12-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Installation individuelle - H1]]></description>
       <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
@@ -3485,7 +3743,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.78]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-127v54-5">
+  <declaration scope="BAR-TH-127">
+    <condition><![CDATA[date_engagement >= '2024-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Installation individuelle - H1]]></description>
       <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
@@ -3662,7 +3921,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-129v27-3">
+  <declaration scope="BAR-TH-129">
+    <condition><![CDATA[date_engagement >= '2018-04-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 3.9 <= SCOP < 4.3]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -3820,7 +4080,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-130v26-1">
+  <declaration scope="BAR-TH-130">
+    <condition><![CDATA[date_engagement >= '2015-01-01' and date_engagement <= '2023-12-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffage électrique - ECS électrique]]></description>
       <condition><![CDATA[energie_chauffage == 'ELECTRICITE' and energie_eau_chaude_sanitaire == 'ELECTRICITE']]></condition>
@@ -3850,7 +4111,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 17.984]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-130v54-2">
+  <declaration scope="BAR-TH-130">
+    <condition><![CDATA[date_engagement >= '2024-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffage électrique - ECS électrique]]></description>
       <condition><![CDATA[energie_chauffage == 'ELECTRICITE' and energie_eau_chaude_sanitaire == 'ELECTRICITE']]></condition>
@@ -3888,7 +4150,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-135v35-2">
+  <declaration scope="BAR-TH-135">
+    <condition><![CDATA[date_engagement >= '2020-10-01']]></condition>
     <regle>
       <description><![CDATA[Taux de couverture solaire maximal]]></description>
       <condition><![CDATA[taux_couverture_solaire > 90]]></condition>
@@ -3952,7 +4215,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-137v45-3">
+  <declaration scope="BAR-TH-137">
+    <condition><![CDATA[date_engagement >= '2022-09-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -4033,7 +4297,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-139v23-2">
+  <declaration scope="BAR-TH-139">
+    <condition><![CDATA[date_engagement >= '2017-02-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
       <definition variable="volume_cee_fiche"><![CDATA[14600]]></definition>
@@ -4052,7 +4317,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-141v15-1">
+  <declaration scope="BAR-TH-141">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - 7000 BTU/h - Classe A]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -4179,7 +4445,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-143v25-1">
+  <declaration scope="BAR-TH-143">
+    <condition><![CDATA[date_engagement >= '2015-01-01' and date_engagement <= '2023-02-28']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -4196,7 +4463,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[100500]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-143v51-5">
+  <declaration scope="BAR-TH-143">
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -4222,13 +4490,15 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-145v36-3">
+  <declaration scope="BAR-TH-145">
+    <condition><![CDATA[date_engagement >= '2020-10-12' and date_engagement <= '2023-07-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
       <definition variable="volume_cee_fiche"><![CDATA[(cef_initial - cef_projet) * surface_habitable * 18]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-145v52-4">
+  <declaration scope="BAR-TH-145">
+    <condition><![CDATA[date_engagement >= '2023-08-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
       <definition variable="volume_cee_fiche"><![CDATA[(cef_initial - cef_projet) * surface_habitable * 18]]></definition>
@@ -4242,7 +4512,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-148v15-2">
+  <declaration scope="BAR-TH-148">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire - Maison individuelle]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -4262,7 +4533,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-150v14-1">
+  <declaration scope="BAR-TH-150">
+    <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire - Pn <= 400 kW - H1 - Chauffage - 102% <= ηs < 110%]]></description>
       <condition><![CDATA[puissance_nominale <= 400]]></condition>
@@ -4529,7 +4801,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-155v40-4">
+  <declaration scope="BAR-TH-155">
+    <condition><![CDATA[date_engagement >= '2022-04-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -4582,7 +4855,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-158v35-2">
+  <declaration scope="BAR-TH-158">
+    <condition><![CDATA[date_engagement >= '2020-10-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -4632,7 +4906,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-159v50-4">
+  <declaration scope="BAR-TH-159">
+    <condition><![CDATA[date_engagement >= '2023-04-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 110 <= ηs < 120]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -4958,7 +5233,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 2.5]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-159v44-3">
+  <declaration scope="BAR-TH-159">
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 110 <= ηs < 120]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -5293,7 +5568,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-160v39-2">
+  <declaration scope="BAR-TH-160">
+    <condition><![CDATA[date_engagement >= '2022-05-01' and date_engagement <= '2023-03-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -5314,7 +5590,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-160v50-3">
+  <declaration scope="BAR-TH-160">
+    <condition><![CDATA[date_engagement >= '2023-04-01' and date_engagement <= '2023-09-30']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -5335,7 +5612,8 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-160v54-4">
+  <declaration scope="BAR-TH-160">
+    <condition><![CDATA[date_engagement >= '2023-10-01' and date_engagement <= '2028-03-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -5364,388 +5642,197 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-161v28-1">
-    <regle>
+  <declaration scope="BAR-TH-161">
+    <condition><![CDATA[date_engagement >= '2018-12-19']]></condition>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H1 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[77200]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H2 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[73500]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H3 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[66900]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H1 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[88000]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H2 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[83900]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H3 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'ECHANGEUR']]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[76300]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre >= 20 and equipement_diametre <= 65]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[11700]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre >= 20 and equipement_diametre <= 65]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[10500]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre >= 20 and equipement_diametre <= 65]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[8800]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 20 <= DN <= 65 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre >= 20 and equipement_diametre <= 65]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[12900]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 20 <= DN <= 65 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre >= 20 and equipement_diametre <= 65]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[11600]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 20 <= DN <= 65 - Tfluide > 120°CC]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre >= 20 and equipement_diametre <= 65]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[9700]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 65 and equipement_diametre <= 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[25100]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 65 and equipement_diametre <= 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[22700]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 65 and equipement_diametre <= 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[18900]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 65 and equipement_diametre <= 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[27800]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 65 and equipement_diametre <= 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[25100]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 65 and equipement_diametre <= 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[20900]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[40900]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[37000]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide >= 50 and equipement_temperature_fluide <= 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[30800]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 100 < DN - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[45400]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 100 < DN - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[41000]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 100 < DN - Tfluide > 120°C]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
+      <condition><![CDATA[equipement_type_point_singulier == 'AUTRES']]></condition>
+      <condition><![CDATA[equipement_diametre > 100]]></condition>
+      <condition><![CDATA[equipement_temperature_fluide > 120]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[34100]]></definition>
     </regle>
-    <regle>
+    <regle iterable="equipements">
       <description><![CDATA[Coefficient multiplicateur]]></description>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
-    </regle>
-  </declaration>
-  <declaration scope="BAR-TH-161v54-2">
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H1 - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[77200]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H2 - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[73500]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H3 - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[66900]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H1 - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[88000]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H2 - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[83900]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H3 - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'ECHANGEUR']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[76300]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[11700]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[10500]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 20 <= DN <= 65 - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[8800]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 20 <= DN <= 65 - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[12900]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 20 <= DN <= 65 - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[11600]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 20 <= DN <= 65 - Tfluide > 120°CC]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[diametre >= 20 and diametre <= 65]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[9700]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[25100]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[22700]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 65 < DN <= 100 - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[18900]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[27800]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[25100]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 65 < DN <= 100 - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[diametre > 65 and diametre <= 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[20900]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[40900]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[37000]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 100 < DN - 50°C <= Tfluide <= 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide >= 50 and temperature_fluide <= 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[30800]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H1 - 100 < DN - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[45400]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H2 - 100 < DN - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[41000]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Hors échangeur à plaque - H3 - 100 < DN - Tfluide > 120°C]]></description>
-      <condition><![CDATA[type_point_singulier == 'AUTRES']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[diametre > 100]]></condition>
-      <condition><![CDATA[temperature_fluide > 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[34100]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Coefficient multiplicateur]]></description>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * equipement_quantite]]></definition>
     </regle>
   </declaration>
   <declaration scope="BAR-TH-162">
@@ -5757,7 +5844,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-162v28-1">
+  <declaration scope="BAR-TH-162">
+    <condition><![CDATA[date_engagement >= '2018-12-19']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
       <definition variable="volume_cee_fiche"><![CDATA[20900]]></definition>
@@ -5771,7 +5859,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-163v38-2">
+  <declaration scope="BAR-TH-163">
+    <condition><![CDATA[date_engagement >= '2021-11-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
@@ -5801,13 +5890,15 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-164v52-3">
+  <declaration scope="BAR-TH-164">
+    <condition><![CDATA[date_engagement >= '2020-10-12' and date_engagement <= '2023-07-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
       <definition variable="volume_cee_fiche"><![CDATA[(cef_initial - cef_projet) * surface_habitable * 18]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-164v36-2">
+  <declaration scope="BAR-TH-164">
+    <condition><![CDATA[date_engagement >= '2023-08-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
       <definition variable="volume_cee_fiche"><![CDATA[(cef_initial - cef_projet) * surface_habitable * 18]]></definition>
@@ -5821,7 +5912,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-165v34-1">
+  <declaration scope="BAR-TH-165">
+    <condition><![CDATA[date_engagement >= '2020-05-20']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
       <definition variable="volume_cee_fiche"><![CDATA[quantite_chaleur_utile]]></definition>
@@ -5845,7 +5937,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-166v38-1">
+  <declaration scope="BAR-TH-166">
+    <condition><![CDATA[date_engagement >= '2021-07-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire - 111% <= ηs < 120% - Chauffage - H1]]></description>
       <condition><![CDATA[performance_energetique >= 111 and performance_energetique < 120]]></condition>
@@ -5956,7 +6049,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-167v38-1">
+  <declaration scope="BAR-TH-167">
+    <condition><![CDATA[date_engagement >= '2021-07-31']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire - Maison individuelle - Haut rendement - H1]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
@@ -6056,7 +6150,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-168v40-1">
+  <declaration scope="BAR-TH-168">
+    <condition><![CDATA[date_engagement >= '2021-12-29']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire - ECS - H1]]></description>
       <condition><![CDATA[usage == 'ECS']]></condition>
@@ -6106,7 +6201,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-169v46-1">
+  <declaration scope="BAR-TH-169">
+    <condition><![CDATA[date_engagement >= '2022-08-05']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire - 2.8 <= COP < 3.2 - H1]]></description>
       <condition><![CDATA[performance_energetique >= 2.8 and performance_energetique < 3.2]]></condition>
@@ -6235,7 +6331,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-170v54-1">
+  <declaration scope="BAR-TH-170">
+    <condition><![CDATA[date_engagement >= '2023-09-30' and date_engagement <= '2028-06-30]]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
       <definition variable="volume_cee_fiche"><![CDATA[82300 * puissance_electrique]]></definition>
@@ -6249,7 +6346,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-171v55-1">
+  <declaration scope="BAR-TH-171">
+    <condition><![CDATA[date_engagement >= '2024-01-01' and date_engagement <= '2028-06-30]]></condition>
     <regle>
       <description><![CDATA[Éligibilité]]></description>
       <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
@@ -6463,7 +6561,8 @@
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-172v55-1">
+  <declaration scope="BAR-TH-172">
+    <condition><![CDATA[date_engagement >= '2024-01-01' and date_engagement <= '2028-06-30]]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffage et ECS - 111% <= ηs < 140%]]></description>
       <condition><![CDATA[usage == 'CHAUFFAGE_ECS']]></condition>
@@ -6564,6 +6663,507 @@
       <description><![CDATA[Facteur correctif : H3]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.7]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CFT">
+    <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAT-TH-113 - Version en vigueur au 01/03/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CFT']]></condition>
+    <condition><![CDATA[code_fiche == 'BAT-TH-113']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière collective au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul ou charbon]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL' or energie_chauffage == 'CHARBON']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 4]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Gaz naturel]]></description>
+      <condition><![CDATA[energie_chauffage == 'GAZ']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 3]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CFT">
+    <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAT-TH-127 - Version en vigueur au 01/03/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CFT']]></condition>
+    <condition><![CDATA[code_fiche == 'BAT-TH-127']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière collective au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Surface chauffée <= 7 500 m²]]></description>
+      <condition><![CDATA[surface_chauffee <= 7500]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[11000000]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Surface chauffée > 7 500 m²]]></description>
+      <condition><![CDATA[surface_chauffee > 7500]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[1070 * surface_chauffee + 3000000]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CFT">
+    <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAT-TH-140 / BAT-TH-141 - Version en vigueur au 01/03/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CFT']]></condition>
+    <condition><![CDATA[code_fiche == 'BAT-TH-140' or code_fiche == 'BAT-TH-141']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière collective au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul ou charbon]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL' or energie_chauffage == 'CHARBON']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 1.6]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Gaz naturel]]></description>
+      <condition><![CDATA[energie_chauffage == 'GAZ']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 1.3]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CFT">
+    <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAT-TH-157 - Version en vigueur au 01/03/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CFT']]></condition>
+    <condition><![CDATA[code_fiche == 'BAT-TH-157']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière collective au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul ou charbon]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL' or energie_chauffage == 'CHARBON']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 4]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Gaz naturel]]></description>
+      <condition><![CDATA[energie_chauffage == 'GAZ']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 3]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CFT">
+    <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAR-TH-137 - Version en vigueur au 01/03/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CFT']]></condition>
+    <condition><![CDATA[code_fiche == 'BAR-TH-137']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière collective au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Nombre de logements <= 125]]></description>
+      <condition><![CDATA[logements <= 125]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[12000000]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Nombre de logements > 125]]></description>
+      <condition><![CDATA[logements > 125]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[77000 * logements + 2300000]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CFT">
+    <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAR-TH-150 - Version en vigueur au 01/03/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CFT']]></condition>
+    <condition><![CDATA[code_fiche == 'BAR-TH-150']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière collective au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul ou charbon]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL' or energie_chauffage == 'CHARBON']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 2]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Gaz naturel]]></description>
+      <condition><![CDATA[energie_chauffage == 'GAZ']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 1.3]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CFT">
+    <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAR-TH-165 - Version en vigueur au 01/03/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CFT']]></condition>
+    <condition><![CDATA[code_fiche == 'BAR-TH-165']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière collective au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul ou charbon]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL' or energie_chauffage == 'CHARBON']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 4]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Gaz naturel]]></description>
+      <condition><![CDATA[energie_chauffage == 'GAZ']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 3]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CFT">
+    <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAR-TH-166 - Version en vigueur au 01/03/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CFT']]></condition>
+    <condition><![CDATA[code_fiche == 'BAR-TH-166']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière collective au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul ou charbon]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL' or energie_chauffage == 'CHARBON']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 4]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Gaz naturel]]></description>
+      <condition><![CDATA[energie_chauffage == 'GAZ']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 3]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CFT">
+    <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAT-TH-113 - Version en vigueur au 01/03/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CFT']]></condition>
+    <condition><![CDATA[code_fiche == 'BAT-TH-113']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière collective au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul ou charbon]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 5]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CFT">
+    <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAR-TH-166 - Version en vigueur au 01/03/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CFT']]></condition>
+    <condition><![CDATA[code_fiche == 'BAR-TH-166']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-03-01']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière collective au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul ou charbon]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 5]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CRC">
+    <description><![CDATA[Coup de pouce Rénovation performante de bâtiment résidentiel collectif - Version en vigueur au 02/07/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CRC']]></condition>
+    <condition><![CDATA[code_fiche == 'BAR-TH-145']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-07-02']]></condition>
+    <regle>
+      <description><![CDATA[Éligibilité]]></description>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[(cef_initial - cef_projet) * surface_habitable]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Remplacement chauffage ou ECS au charbon ou au fioul - 50% renouvelable]]></description>
+      <condition><![CDATA[critere_remplacement_fioul == 1]]></condition>
+      <condition><![CDATA[taux_utilisation_enr >= 50]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification * 77]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Remplacement chauffage ou ECS au charbon ou au fioul - Autres]]></description>
+      <condition><![CDATA[critere_remplacement_fioul == 1]]></condition>
+      <condition><![CDATA[taux_utilisation_enr < 50]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification * 46]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Autres - 50% renouvelable]]></description>
+      <condition><![CDATA[critere_remplacement_fioul == 0]]></condition>
+      <condition><![CDATA[taux_utilisation_enr >= 50]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification * 61]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Autres - Autres]]></description>
+      <condition><![CDATA[critere_remplacement_fioul == 0]]></condition>
+      <condition><![CDATA[taux_utilisation_enr < 50]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification * 38]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CRM">
+    <description><![CDATA[Coup de pouce Rénovation performante d'une maison individuelle - Version au 02/07/2023]]></description>
+    <condition><![CDATA[code_bonification == 'CRM']]></condition>
+    <condition><![CDATA[code_fiche == 'BAR-TH-164']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-07-02']]></condition>
+    <regle>
+      <description><![CDATA[Éligibilité]]></description>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[(cef_initial - cef_projet) * surface_habitable]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - CEP projet <= 110 kWh/m²/an]]></description>
+      <condition><![CDATA[cep_projet <= 110]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification * 54 * coefficient_modeste]]></definition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification * 46 * (1 - coefficient_modeste)]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - CEP projet > 110 kWh/m²/an]]></description>
+      <condition><![CDATA[cep_projet > 110]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification * 38 * coefficient_modeste]]></definition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification * 30 * (1 - coefficient_modeste)]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Ecrêtement - Volume CEE fiche <= 3850000 kWhc]]></description>
+      <condition><![CDATA[volume_cee_fiche <= 3850000 and volume_cee_bonification > 3850000]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[3850000]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Ecrêtement - Volume CEE fiche > 3850000 kWhc]]></description>
+      <condition><![CDATA[volume_cee_fiche > 3850000]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Ecrêtement - Volume CEE fiche <= 231000 kWhc/m²]]></description>
+      <condition><![CDATA[volume_cee_fiche / surface_habitable <= 231000]]></condition>
+      <condition><![CDATA[volume_cee_bonification / surface_habitable > 231000]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[231000 * surface_habitable]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Ecrêtement - Volume CEE fiche > 231000 kWhc/m²]]></description>
+      <condition><![CDATA[volume_cee_fiche / surface_habitable <= 231000]]></condition>
+      <condition><![CDATA[volume_cee_bonification / surface_habitable > 231000]]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage - Version en vigueur du 29/10/2022 au 06/10/2023]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-104' or code_fiche == 'BAR-TH-113' or code_fiche == 'BAR-TH-143' or code_fiche == 'BAR-TH-159']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2022-10-29' and date_engagement <= '2023-10-06]]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul - Ménages modestes]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[769200]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul - Autres ménages]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Ménages modestes]]></description>
+      <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Autres ménages]]></description>
+      <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
+      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[384600]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage - Version en vigueur au 07/10/2023]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-113' or code_fiche == 'BAR-TH-159' or code_fiche == 'BAR-TH-171']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul - Ménages modestes]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[769200]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul - Autres ménages]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Ménages modestes]]></description>
+      <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Autres ménages]]></description>
+      <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
+      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[384600]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-137]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-137']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2022-10-29']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul - Ménages modestes]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[153800]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul - Autres ménages]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[138500]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Ménages modestes]]></description>
+      <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[107700]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Autres ménages]]></description>
+      <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
+      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[69200]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-112]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-112']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2022-10-29']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'un équipement de chauffage fonctionnant principalement au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Ménages modestes]]></description>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[123100]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Autres ménages]]></description>
+      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[76900]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-163]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-163']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2022-10-29']]></condition>
+    <regle>
+      <description><![CDATA[Éligibilité]]></description>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Ménages modestes]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[107700 * coefficient_modeste]]></definition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification + 69200 * (1 - coefficient_modeste)]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-143 / BAR-TH-172]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-143' or code_fiche == 'BAR-TH-172']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[769200]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="*">
+    <condition><![CDATA[date_engagement >= '2021-04-17']]></condition>
+    <condition><![CDATA[bonification == 0 or code_bonification = 'ZNI']]></condition>
+    <condition><![CDATA[outre_mer == 1 or code_departement == '2A' or code_departement == '2B']]></condition>
+    <regle>
+      <description><![CDATA[Bonification ZNI - Éligibilité]]></description>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Bonification ZNI]]></description>
+      <definition variable="bonification"><![CDATA[1]]></definition>
+      <definition variable="code_bonification"><![CDATA[ZNI]]></definition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 2]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="*">
+    <condition><![CDATA[secteur_application == 'BAR' or secteur_application == 'BAT']]></condition>
+    <condition><![CDATA[date_engagement >= '2021-12-24']]></condition>
+    <condition><![CDATA[bonification == 0 or code_bonification = 'CPE']]></condition>
+    <condition><![CDATA[contrat_performance_energetique == 1]]></condition>
+    <regle>
+      <description><![CDATA[Bonification CPE - Éligibilité]]></description>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Bonification CPE - Durée de garantie >= 10 ans]]></description>
+      <condition><![CDATA[duree_garantie >= 10]]></condition>
+      <definition variable="bonification"><![CDATA[1]]></definition>
+      <definition variable="code_bonification"><![CDATA[CPE]]></definition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * (1 + 3 * economies_energie_garanti)]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Bonification CPE - Durée de garantie < 10 ans]]></description>
+      <condition><![CDATA[duree_garantie < 10]]></condition>
+      <definition variable="bonification"><![CDATA[1]]></definition>
+      <definition variable="code_bonification"><![CDATA[CPE]]></definition>
+      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * (1 + 2 * economies_energie_garanti)]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="*">
+    <regle>
+      <description><![CDATA[Bonification]]></description>
+      <condition><![CDATA[volume_cee_bonification > 0]]></condition>
+      <definition variable="volume_cee_precarite"><![CDATA[volume_cee_bonification * coefficient_precarite]]></definition>
+      <definition variable="volume_cee_classique"><![CDATA[volume_cee_bonification * (1 - coefficient_precarite)]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="*">
+    <regle>
+      <description><![CDATA[Hors bonification]]></description>
+      <condition><![CDATA[volume_cee_bonification == 0]]></condition>
+      <definition variable="volume_cee_precarite"><![CDATA[volume_cee_fiche * coefficient_precarite]]></definition>
+      <definition variable="volume_cee_classique"><![CDATA[volume_cee_fiche * (1 - coefficient_precarite)]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="*">
+    <regle>
+      <description><![CDATA[Résultat]]></description>
+      <definition variable="volume_cee"><![CDATA[volume_cee_classique + volume_cee_precarite]]></definition>
     </regle>
   </declaration>
 </declarations>

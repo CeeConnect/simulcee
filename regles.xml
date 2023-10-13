@@ -5644,6 +5644,16 @@
     </declaration>
     <declaration scope="BAR-TH-161">
         <condition><![CDATA[date_engagement >= '2018-12-19']]></condition>
+        <regle>
+            <definition variable="volume_cee_fiche_equipement_1"><![CDATA[0]]></definition>
+            <definition variable="volume_cee_fiche_equipement_2"><![CDATA[0]]></definition>
+            <definition variable="volume_cee_fiche_equipement_3"><![CDATA[0]]></definition>
+            <definition variable="volume_cee_fiche_equipement_4"><![CDATA[0]]></definition>
+            <definition variable="volume_cee_fiche_equipement_5"><![CDATA[0]]></definition>
+            <definition variable="volume_cee_fiche_equipement_6"><![CDATA[0]]></definition>
+            <definition variable="volume_cee_fiche_equipement_7"><![CDATA[0]]></definition>
+            <definition variable="volume_cee_fiche_equipement_8"><![CDATA[0]]></definition>
+        </regle>
         <regle iterable="equipements">
             <description><![CDATA[Montant forfaitaire - Échangeur à plaque - H1 - 50°C <= Tfluide <= 120°C]]></description>
             <condition><![CDATA[zone_climatique == 'H1']]></condition>

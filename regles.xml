@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
-<?xml-model href="./regles.xsd"?>
-<declarations>
+<?xml version="1.0" ?>
+<declarations >
+
   <declaration scope="*">
     <regle>
       <description><![CDATA[Département : Ain]]></description>
@@ -6332,7 +6332,7 @@
     </regle>
   </declaration>
   <declaration scope="BAR-TH-170">
-    <condition><![CDATA[date_engagement >= '2023-09-30' and date_engagement <= '2028-06-30]]></condition>
+    <condition><![CDATA[date_engagement >= '2023-09-30' and date_engagement <= '2028-06-30']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire]]></description>
       <definition variable="volume_cee_fiche"><![CDATA[82300 * puissance_electrique]]></definition>
@@ -6347,7 +6347,7 @@
     </regle>
   </declaration>
   <declaration scope="BAR-TH-171">
-    <condition><![CDATA[date_engagement >= '2024-01-01' and date_engagement <= '2028-06-30]]></condition>
+    <condition><![CDATA[date_engagement >= '2024-01-01' and date_engagement <= '2028-06-30']]></condition>
     <regle>
       <description><![CDATA[Éligibilité]]></description>
       <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
@@ -6562,7 +6562,7 @@
     </regle>
   </declaration>
   <declaration scope="BAR-TH-172">
-    <condition><![CDATA[date_engagement >= '2024-01-01' and date_engagement <= '2028-06-30]]></condition>
+    <condition><![CDATA[date_engagement >= '2024-01-01' and date_engagement <= '2028-06-30']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffage et ECS - 111% <= ηs < 140%]]></description>
       <condition><![CDATA[usage == 'CHAUFFAGE_ECS']]></condition>

@@ -1766,7 +1766,7 @@
     <regle>
       <description><![CDATA[Maison ou appartement]]></description>
       <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
-      <definition variable="eligibilite_fiche"><![CDATA[0]]></definition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - Chauffage électrique]]></description>
@@ -1942,7 +1942,7 @@
     <regle>
       <description><![CDATA[Maison ou appartement]]></description>
       <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
-      <definition variable="eligibilite_fiche"><![CDATA[0]]></definition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - H1]]></description>

@@ -1,6 +1,6 @@
-<?xml version="1.0"?>
-<?xml-model href="./regles.xsd"?>
-<declarations>
+<?xml version="1.0" ?>
+<declarations >
+
   <declaration scope="*">
     <regle>
       <description><![CDATA[Département : Ain]]></description>
@@ -1065,7 +1065,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Combustible - H1]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[8200]]></definition>
     </regle>
     <regle>
@@ -1077,7 +1077,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Combustible - H2]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[6700]]></definition>
     </regle>
     <regle>
@@ -1089,7 +1089,7 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Combustible - H3]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[4500]]></definition>
     </regle>
     <regle>
@@ -2699,19 +2699,19 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : H1 - Combustible]]></description>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[3300]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : H2 - Combustible]]></description>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[2700]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : H3 - Combustible]]></description>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1800]]></definition>
     </regle>
     <regle>
@@ -3024,21 +3024,21 @@
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - Combustible - H1]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[14200]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - Combustible - H2]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[11600]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Maison individuelle - Combustible - H3]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[7700]]></definition>
     </regle>
@@ -3070,7 +3070,7 @@
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - Combustible - H1]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
       <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <condition><![CDATA[zone_climatique == 'H1']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[6600]]></definition>
     </regle>
@@ -3078,7 +3078,7 @@
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - Combustible - H2]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
       <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <condition><![CDATA[zone_climatique == 'H2']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[5400]]></definition>
     </regle>
@@ -3086,7 +3086,7 @@
       <description><![CDATA[Montant forfaitaire : Appartement - Chauffage individuel - Combustible - H3]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
       <condition><![CDATA[type_installation == 'INDIVIDUEL']]></condition>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES']]></condition>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[3600]]></definition>
     </regle>
@@ -4096,17 +4096,17 @@
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffage combustible - ECS combustible]]></description>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE' and energie_eau_chaude_sanitaire == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES' and energie_eau_chaude_sanitaire == 'COMBUSTIBLES']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[cep_max * 0.9 + cep_max * 0.1 / 2.58 - cef_bat]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffage combustible - ECS électrique]]></description>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE' and energie_eau_chaude_sanitaire == 'ELECTRICITE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES' and energie_eau_chaude_sanitaire == 'ELECTRICITE']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[cep_max * 0.65 + cep_max * 0.25 / 2.58 + cep_max * 0.1 / 2.58 - cef_bat]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffage électrique - ECS combustible]]></description>
-      <condition><![CDATA[energie_chauffage == 'ELECTRICITE' and energie_eau_chaude_sanitaire == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'ELECTRICITE' and energie_eau_chaude_sanitaire == 'COMBUSTIBLES']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[cep_max * 0.3 / 2.58 + cep_max * 0.6 + cep_max * 0.1 / 2.58 - cef_bat]]></definition>
     </regle>
     <regle>
@@ -4127,17 +4127,17 @@
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffage combustible - ECS combustible]]></description>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE' and energie_eau_chaude_sanitaire == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES' and energie_eau_chaude_sanitaire == 'COMBUSTIBLES']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[cep_max * 0.9 + cep_max * 0.1 / 2.3 - cef_bat]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffage combustible - ECS électrique]]></description>
-      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLE' and energie_eau_chaude_sanitaire == 'ELECTRICITE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'COMBUSTIBLES' and energie_eau_chaude_sanitaire == 'ELECTRICITE']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[cep_max * 0.65 + cep_max * 0.25 / 2.3 + cep_max * 0.1 / 2.3 - cef_bat]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Chauffage électrique - ECS combustible]]></description>
-      <condition><![CDATA[energie_chauffage == 'ELECTRICITE' and energie_eau_chaude_sanitaire == 'COMBUSTIBLE']]></condition>
+      <condition><![CDATA[energie_chauffage == 'ELECTRICITE' and energie_eau_chaude_sanitaire == 'COMBUSTIBLES']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[cep_max * 0.3 / 2.3 + cep_max * 0.6 + cep_max * 0.1 / 2.3 - cef_bat]]></definition>
     </regle>
     <regle>

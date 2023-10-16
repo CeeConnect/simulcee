@@ -1,6 +1,6 @@
-<?xml version="1.0" ?>
-<declarations >
-
+<?xml version="1.0"?>
+<?xml-model href="./regles.xsd"?>
+<declarations>
   <declaration scope="*">
     <regle>
       <description><![CDATA[Département : Ain]]></description>
@@ -4083,7 +4083,7 @@
       <description><![CDATA[Bâtiment neuf]]></description>
       <condition><![CDATA[metropole == 1]]></condition>
       <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'IMMEUBLE']]></condition>
-      <condition><![CDATA[anciennete_batiment == 'NEUF' or extension_batiment = 1]]></condition>
+      <condition><![CDATA[anciennete_batiment == 'NEUF' or extension_batiment == 1]]></condition>
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>
@@ -7131,7 +7131,7 @@
   </declaration>
   <declaration scope="*">
     <condition><![CDATA[date_engagement >= '2021-04-17']]></condition>
-    <condition><![CDATA[bonification == 0 or code_bonification = 'ZNI']]></condition>
+    <condition><![CDATA[bonification != 1 or code_bonification == 'ZNI']]></condition>
     <condition><![CDATA[outre_mer == 1 or code_departement == '2A' or code_departement == '2B']]></condition>
     <regle>
       <description><![CDATA[Bonification ZNI - Éligibilité]]></description>
@@ -7147,7 +7147,7 @@
   <declaration scope="*">
     <condition><![CDATA[secteur_application == 'BAR' or secteur_application == 'BAT']]></condition>
     <condition><![CDATA[date_engagement >= '2021-12-24']]></condition>
-    <condition><![CDATA[bonification == 0 or code_bonification = 'CPE']]></condition>
+    <condition><![CDATA[bonification != 1 or code_bonification == 'CPE']]></condition>
     <condition><![CDATA[contrat_performance_energetique == 1]]></condition>
     <regle>
       <description><![CDATA[Bonification CPE - Éligibilité]]></description>

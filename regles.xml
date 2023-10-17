@@ -5940,7 +5940,7 @@
   <declaration scope="BAR-TH-165">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
       <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>

@@ -1,6 +1,6 @@
-<?xml version="1.0" ?>
-<declarations >
-
+<?xml version="1.0"?>
+<?xml-model href="./regles.xsd"?>
+<declarations>
   <declaration scope="*">
     <regle>
       <description><![CDATA[Département : Ain]]></description>
@@ -4162,7 +4162,7 @@
     <regle>
       <description><![CDATA[France d'outre-mer]]></description>
       <condition><![CDATA[outre_mer == 1]]></condition>
-      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[type_batiment == 'IMMEUBLE']]></condition>
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>
   </declaration>

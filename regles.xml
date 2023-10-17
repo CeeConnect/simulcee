@@ -911,6 +911,15 @@
       <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
       <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>
+    <regle>
+      <description><![CDATA[Département : Mayotte]]></description>
+      <condition><![CDATA[code_departement == '976']]></condition>
+      <definition variable="metropole"><![CDATA[0]]></definition>
+      <definition variable="outre_mer"><![CDATA[1]]></definition>
+      <definition variable="zone_climatique"><![CDATA['H3']]></definition>
+      <definition variable="fraction_menages_modestes"><![CDATA[0.94]]></definition>
+      <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
+    </regle>
   </declaration>
   <declaration scope="*">
     <condition><![CDATA[secteur_application == 'BAR']]></condition>

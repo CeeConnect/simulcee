@@ -1376,25 +1376,25 @@
     <condition><![CDATA[date_engagement >= '2015-01-01']]></condition>
     <regle>
       <description><![CDATA[Montant forfaitaire : IK = 10 - Détection de présence OU de lumière]]></description>
-      <condition><![CDATA[indice_protection_chocs == 10]]></condition>
+      <condition><![CDATA[indice_protection_chocs == '10']]></condition>
       <condition><![CDATA[detecteur_presence == 0 or detecteur_lumiere == 0]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1200]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : IK = 10 - Détection de présence ET de lumière]]></description>
-      <condition><![CDATA[indice_protection_chocs == 10]]></condition>
+      <condition><![CDATA[indice_protection_chocs == '10']]></condition>
       <condition><![CDATA[detecteur_presence == 1 and detecteur_lumiere == 1]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1600]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : IK < 10 - Détection de présence OU de lumière]]></description>
-      <condition><![CDATA[indice_protection_chocs < 10]]></condition>
+      <condition><![CDATA[indice_protection_chocs != '10']]></condition>
       <condition><![CDATA[detecteur_presence == 0 or detecteur_lumiere == 0]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1500]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : IK < 10 - Détection de présence ET de lumière]]></description>
-      <condition><![CDATA[indice_protection_chocs < 10]]></condition>
+      <condition><![CDATA[indice_protection_chocs != '10']]></condition>
       <condition><![CDATA[detecteur_presence == 1 and detecteur_lumiere == 1]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[1900]]></definition>
     </regle>

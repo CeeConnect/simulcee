@@ -6489,7 +6489,7 @@
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire : Appartement - H3 - Régulation classe A]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
       <condition><![CDATA[zone_climatique == 'H3']]></condition>
       <condition><![CDATA[performance_equipement == 'A']]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[7700]]></definition>

@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="./regles.xsd"?>
 <declarations>
+  <!-- geo -->
+  <!-- @see https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000046819847 -->
+  <!-- @see https://www.ecologie.gouv.fr/sites/default/files/La%20r%C3%A9partition%20des%20d%C3%A9partements%20par%20zone%20climatique.pdf -->
   <declaration scope="*">
     <regle>
       <description><![CDATA[Département : Ain]]></description>
@@ -921,6 +924,8 @@
       <definition variable="fraction_precarite_energetique"><![CDATA[0.8]]></definition>
     </regle>
   </declaration>
+  <!-- Précarité énergétique -->
+  <!-- @see https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000046819847 -->
   <declaration scope="*">
     <condition><![CDATA[secteur_application == 'BAR']]></condition>
     <condition><![CDATA[date_engagement >= '2023-01-01']]></condition>
@@ -967,6 +972,8 @@
       <definition variable="coefficient_modeste"><![CDATA[menages_modestes / menages]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-->
+  <!-- BAR-EN-101-->
   <declaration scope="BAR-EN-101">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -997,6 +1004,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EN-102-->
   <declaration scope="BAR-EN-102">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1027,6 +1035,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EN-103-->
   <declaration scope="BAR-EN-103">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1056,6 +1065,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EN-104-->
   <declaration scope="BAR-EN-104">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1128,6 +1138,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * surface]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EN-105-->
   <declaration scope="BAR-EN-105">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1157,6 +1168,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EN-106-->
   <declaration scope="BAR-EN-106">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1195,6 +1207,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EN-107-->
   <declaration scope="BAR-EN-107">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1265,6 +1278,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EN-108-->
   <declaration scope="BAR-EN-108">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1316,6 +1330,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * surface]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EN-109-->
   <declaration scope="BAR-EN-109">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1345,6 +1360,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EN-110-->
   <declaration scope="BAR-EN-110">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1374,6 +1390,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EQ-110-->
   <declaration scope="BAR-EQ-110">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1412,6 +1429,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-EQ-115-->
   <declaration scope="BAR-EQ-115">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1557,6 +1575,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche + 410]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-SE-104-->
   <declaration scope="BAR-SE-104">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1590,6 +1609,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-SE-105-->
   <declaration scope="BAR-SE-105">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1770,6 +1790,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-SE-106-->
   <declaration scope="BAR-SE-106">
     <condition><![CDATA[date_engagement >= '2020-04-01']]></condition>
     <regle>
@@ -1904,6 +1925,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[60]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-SE-107-->
   <declaration scope="BAR-SE-107">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1938,6 +1960,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-SE-108-->
   <declaration scope="BAR-SE-108">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -1990,6 +2013,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[3200]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-SE-109-->
   <declaration scope="BAR-SE-109">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2063,6 +2087,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-101 -->
   <declaration scope="BAR-TH-101">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2090,6 +2115,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[27600]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-102 -->
   <declaration scope="BAR-TH-102">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2106,6 +2132,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[besoin_eau_chaude_sanitaire * (production_solaire_utile / besoin_eau_chaude_sanitaire) * 100 * 0.196]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-104 -->
   <declaration scope="BAR-TH-104">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2315,6 +2342,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 2.5]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-106 -->
   <declaration scope="BAR-TH-106">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2396,6 +2424,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-107 -->
   <declaration scope="BAR-TH-107">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2474,6 +2503,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[0]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-107-SE -->
   <declaration scope="BAR-TH-107-SE">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2602,6 +2632,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.19]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-110 -->
   <declaration scope="BAR-TH-110">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2677,6 +2708,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-111 -->
   <declaration scope="BAR-TH-111">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2759,6 +2791,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.6]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-112 -->
   <declaration scope="BAR-TH-112">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2824,6 +2857,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[19200]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-113-->
   <declaration scope="BAR-TH-113">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2850,6 +2884,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[26300]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-116 -->
   <declaration scope="BAR-TH-116">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -2925,6 +2960,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * surface_chauffee]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-117 -->
   <declaration scope="BAR-TH-117">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -3000,6 +3036,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-118 -->
   <declaration scope="BAR-TH-118">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -3169,6 +3206,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.6]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-122 -->
   <declaration scope="BAR-TH-122">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -3217,6 +3255,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[0]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-123 -->
   <declaration scope="BAR-TH-123">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -3269,6 +3308,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-124 -->
   <declaration scope="BAR-TH-124">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -3344,6 +3384,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * surface_capteurs]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-125 -->
   <declaration scope="BAR-TH-125">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -3578,6 +3619,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-127 -->
   <declaration scope="BAR-TH-127">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -3929,6 +3971,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.78]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-129 -->
   <declaration scope="BAR-TH-129">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -4087,6 +4130,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 2.5]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-130 -->
   <declaration scope="BAR-TH-130">
     <regle>
       <description><![CDATA[Bâtiment neuf]]></description>
@@ -4158,6 +4202,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 17.984]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-135 -->
   <declaration scope="BAR-TH-135">
     <regle>
       <description><![CDATA[France d'outre-mer]]></description>
@@ -4223,6 +4268,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.086]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-137 -->
   <declaration scope="BAR-TH-137">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -4305,6 +4351,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.6]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-139 -->
   <declaration scope="BAR-TH-139">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -4324,6 +4371,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * puissance_nominale]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-141 -->
   <declaration scope="BAR-TH-141">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -4452,6 +4500,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-143 -->
   <declaration scope="BAR-TH-143">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -4497,6 +4546,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[100500]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-145 -->
   <declaration scope="BAR-TH-145">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -4520,6 +4570,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[(cef_initial - cef_projet) * surface_habitable * 18]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-148 -->
   <declaration scope="BAR-TH-148">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -4541,6 +4592,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[11900]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-150 -->
   <declaration scope="BAR-TH-150">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -4808,6 +4860,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (puissance_nominale / puissance_chaufferie)]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-155 -->
   <declaration scope="BAR-TH-155">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -4863,6 +4916,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.95]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-158 -->
   <declaration scope="BAR-TH-158">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -4914,6 +4968,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-159 -->
   <declaration scope="BAR-TH-159">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -5197,7 +5252,7 @@
     <regle>
       <description><![CDATA[Facteur correctif : Maison individuelle - 110 <= S < 130]]></description>
       <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[surface_chauffee >= 110 and surface_chauffee < 130]]></condition>
+      <condition><![CDATA[surface_chauffee >= 110 and surface_chauffee <= 130]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.1]]></definition>
     </regle>
     <regle>
@@ -5239,7 +5294,7 @@
     <regle>
       <description><![CDATA[Facteur correctif : Appartement - 110 <= S < 130]]></description>
       <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[surface_chauffee >= 110 and surface_chauffee < 130]]></condition>
+      <condition><![CDATA[surface_chauffee >= 110 and surface_chauffee <= 130]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.9]]></definition>
     </regle>
     <regle>
@@ -5249,332 +5304,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 2.5]]></definition>
     </regle>
   </declaration>
-  <declaration scope="BAR-TH-159">
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 110 <= ηs < 120]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 110 and performance_energetique < 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[74100]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - 110 <= ηs < 120]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 110 and performance_energetique < 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[62800]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - 110 <= ηs < 120]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 110 and performance_energetique < 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[45600]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 120 <= ηs < 130]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 120 and performance_energetique < 130]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[90300]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - 120 <= ηs < 130]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 120 and performance_energetique < 130]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[76500]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - 120 <= ηs < 130]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 120 and performance_energetique < 130]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[55400]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 130 <= ηs < 140]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 130 and performance_energetique < 140]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[104800]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - 130 <= ηs < 140]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 130 and performance_energetique < 140]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[88800]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - 130 <= ηs < 140]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 130 and performance_energetique < 140]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[64400]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 140 <= ηs < 150]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 140 and performance_energetique < 150]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[117200]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - 140 <= ηs < 150]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 140 and performance_energetique < 150]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[99400]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - 140 <= ηs < 150]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 140 and performance_energetique < 150]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[72000]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - 150 <= ηs < 160]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 150 and performance_energetique < 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[128000]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - 150 <= ηs < 160]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 150 and performance_energetique < 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[108500]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - 150 <= ηs < 160]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 150 and performance_energetique < 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[78700]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - ηs >= 160]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[137500]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - ηs >= 160]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[116600]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - ηs >= 160]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[84500]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H1 - 110 <= ηs < 120]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 110 and performance_energetique < 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[39600]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H2 - 110 <= ηs < 120]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 110 and performance_energetique < 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[33900]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H3 - 110 <= ηs < 120]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 110 and performance_energetique < 120]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[25600]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H1 - 120 <= ηs < 130]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 120 and performance_energetique < 130]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[48200]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H2 - 120 <= ηs < 130]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 120 and performance_energetique < 130]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[41300]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H3 - 120 <= ηs < 130]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 120 and performance_energetique < 130]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[31200]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H1 - 130 <= ηs < 140]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 130 and performance_energetique < 140]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[55900]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H2 - 130 <= ηs < 140]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 130 and performance_energetique < 140]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[47900]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H3 - 130 <= ηs < 140]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 130 and performance_energetique < 140]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[36200]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H1 - 140 <= ηs < 150]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 140 and performance_energetique < 150]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[62600]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H2 - 140 <= ηs < 150]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 140 and performance_energetique < 150]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[53600]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H3 - 140 <= ηs < 150]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 140 and performance_energetique < 150]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[40500]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H1 - 150 <= ηs < 160]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 150 and performance_energetique < 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[68400]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H2 - 150 <= ηs < 160]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 150 and performance_energetique < 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[58600]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H3 - 150 <= ηs < 160]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 150 and performance_energetique < 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[44200]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H1 - ηs >= 160]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H1']]></condition>
-      <condition><![CDATA[performance_energetique >= 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[73400]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H2 - ηs >= 160]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H2']]></condition>
-      <condition><![CDATA[performance_energetique >= 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[62900]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire : Appartement - H3 - ηs >= 160]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[zone_climatique == 'H3']]></condition>
-      <condition><![CDATA[performance_energetique >= 160]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[47500]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Maison individuelle - S < 70]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[surface_chauffee < 70]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.5]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Maison individuelle - 70 <= S < 90]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[surface_chauffee >= 70 and surface_chauffee < 90]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.7]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Maison individuelle - 90 <= S < 110]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[surface_chauffee >= 90 and surface_chauffee < 110]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Maison individuelle - 110 <= S < 130]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[surface_chauffee >= 110 and surface_chauffee < 130]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Maison individuelle - S > 130]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
-      <condition><![CDATA[surface_chauffee > 130]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.6]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Appartement - S < 35]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[surface_chauffee < 35]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.5]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Appartement - 35 <= S < 60]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[surface_chauffee >= 35 and surface_chauffee < 60]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.7]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Appartement - 60 <= S < 70]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[surface_chauffee >= 60 and surface_chauffee < 70]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Appartement - 70 <= S < 90]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[surface_chauffee >= 70 and surface_chauffee < 90]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.2]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Appartement - 90 <= S < 110]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[surface_chauffee >= 90 and surface_chauffee < 110]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.5]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Appartement - 110 <= S < 130]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[surface_chauffee >= 110 and surface_chauffee < 130]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.9]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Facteur correctif : Appartement - S > 130]]></description>
-      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
-      <condition><![CDATA[surface_chauffee > 130]]></condition>
-      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 2.5]]></definition>
-    </regle>
-  </declaration>
+  <!-- BAR-TH-160 -->
   <declaration scope="BAR-TH-160">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -5650,6 +5380,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-161 -->
   <declaration scope="BAR-TH-161">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -5868,6 +5599,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche + volume_cee_fiche_equipement_8]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-162 -->
   <declaration scope="BAR-TH-162">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -5884,6 +5616,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[20900]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-163 -->
   <declaration scope="BAR-TH-163">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -5914,6 +5647,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * quantite]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-164 -->
   <declaration scope="BAR-TH-164">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -5937,6 +5671,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[(cef_initial - cef_projet) * surface_habitable * 18]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-165 -->
   <declaration scope="BAR-TH-165">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -5962,6 +5697,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 3.4]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-166 -->
   <declaration scope="BAR-TH-166">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -6073,6 +5809,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (puissance_nominale / puissance_chaufferie)]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-167 -->
   <declaration scope="BAR-TH-167">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -6174,6 +5911,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * logements]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-168 -->
   <declaration scope="BAR-TH-168">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -6226,6 +5964,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * surface_capteurs]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-169 -->
   <declaration scope="BAR-TH-169">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -6357,6 +6096,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * (taux_couverture / 100)]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-170 -->
   <declaration scope="BAR-TH-170">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -6371,6 +6111,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[82300 * puissance_electrique]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-171 -->
   <declaration scope="BAR-TH-171">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -6586,6 +6327,7 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.7]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-172 -->
   <declaration scope="BAR-TH-172">
     <regle>
       <description><![CDATA[Éligibilité]]></description>
@@ -6698,6 +6440,189 @@
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.7]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-173 -->
+  <declaration scope="BAR-TH-173">
+    <regle>
+      <description><![CDATA[Éligibilité]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT' ]]></condition>
+      <condition><![CDATA[configuration_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
+      <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
+    </regle>
+  </declaration>
+  <declaration scope="BAR-TH-173">
+    <condition><![CDATA[date_engagement >= '2023-11-30' and date_engagement <= '2026-12-31']]></condition>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - Régulation classe A]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[zone_climatique == 'H1']]></condition>
+      <condition><![CDATA[performance_equipement == 'A']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[32800]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - Régulation classe A]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[zone_climatique == 'H2']]></condition>
+      <condition><![CDATA[performance_equipement == 'A']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[26900]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - Régulation classe A]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[zone_climatique == 'H3']]></condition>
+      <condition><![CDATA[performance_equipement == 'A']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[17900]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Appartement - H1 - Régulation classe A]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[zone_climatique == 'H1']]></condition>
+      <condition><![CDATA[performance_equipement == 'A']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[14200]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Appartement - H2 - Régulation classe A]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[zone_climatique == 'H2']]></condition>
+      <condition><![CDATA[performance_equipement == 'A']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[11500]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Appartement - H3 - Régulation classe A]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[zone_climatique == 'H3']]></condition>
+      <condition><![CDATA[performance_equipement == 'A']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[7700]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Maison individuelle - H1 - Régulation classe B]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[zone_climatique == 'H1']]></condition>
+      <condition><![CDATA[performance_equipement == 'B']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[22800]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Maison individuelle - H2 - Régulation classe B]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[zone_climatique == 'H2']]></condition>
+      <condition><![CDATA[performance_equipement == 'B']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[18700]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Maison individuelle - H3 - Régulation classe B]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[zone_climatique == 'H3']]></condition>
+      <condition><![CDATA[performance_equipement == 'B']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[12500]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Appartement - H1 - Régulation classe B]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[zone_climatique == 'H1']]></condition>
+      <condition><![CDATA[performance_equipement == 'B']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[9900]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Appartement - H2 - Régulation classe B]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[zone_climatique == 'H2']]></condition>
+      <condition><![CDATA[performance_equipement == 'B']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[8000]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire : Appartement - H3 - Régulation classe B]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[zone_climatique == 'H3']]></condition>
+      <condition><![CDATA[performance_equipement == 'B']]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[5400]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Maison individuelle : S < 35]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[surface_chauffee < 35]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.3]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Maison individuelle : 35 <= S < 60]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[surface_chauffee >= 35 and surface_chauffee < 60]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.5]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Maison individuelle : 60 <= S < 70]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[surface_chauffee >= 60 and surface_chauffee < 70]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.6]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Maison individuelle : 70 <= S < 90]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[surface_chauffee >= 70 and surface_chauffee < 90]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.7]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Maison individuelle : 90 <= S < 110]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[surface_chauffee >= 90 and surface_chauffee < 110]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Maison individuelle : 110 <= S <= 130]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[surface_chauffee >= 110 and surface_chauffee <= 130]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Maison individuelle : S < 130]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[surface_chauffee < 130]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.6]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Appartement : S < 35]]></description>
+      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[surface_chauffee < 35]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.5]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Appartement : 35 <= S < 60]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[surface_chauffee >= 35 and surface_chauffee < 60]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.7]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Appartement : 60 <= S < 70]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[surface_chauffee >= 60 and surface_chauffee < 70]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Appartement : 70 <= S < 90]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[surface_chauffee >= 70 and surface_chauffee < 90]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.2]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Appartement : 90 <= S < 110]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[surface_chauffee >= 90 and surface_chauffee < 110]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.5]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Appartement : 110 <= S <= 130]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[surface_chauffee >= 110 and surface_chauffee <= 130]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 1.9]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Facteur correctif - Appartement : S < 130]]></description>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
+      <condition><![CDATA[surface_chauffee < 130]]></condition>
+      <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 2.5]]></definition>
+    </regle>
+  </declaration>
+  <!-- Bonifications-->
+  <!-- CFT -->
   <declaration scope="CFT">
     <description><![CDATA[Coup de pouce Chauffage des bâtiments résidentiels collectifs et tertiaires : BAT-TH-113 - Version en vigueur au 01/03/2023]]></description>
     <condition><![CDATA[code_bonification == 'CFT']]></condition>
@@ -6896,6 +6821,7 @@
       <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 5]]></definition>
     </regle>
   </declaration>
+  <!-- CRC -->
   <declaration scope="CRC">
     <description><![CDATA[Coup de pouce Rénovation performante de bâtiment résidentiel collectif - Version en vigueur au 02/07/2023]]></description>
     <condition><![CDATA[code_bonification == 'CRC']]></condition>
@@ -6934,6 +6860,7 @@
       <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification * 38]]></definition>
     </regle>
   </declaration>
+  <!-- CRM -->
   <declaration scope="CRM">
     <description><![CDATA[Coup de pouce Rénovation performante d'une maison individuelle - Version au 02/07/2023]]></description>
     <condition><![CDATA[code_bonification == 'CRM']]></condition>
@@ -6982,15 +6909,22 @@
       <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche]]></definition>
     </regle>
   </declaration>
+  <!-- CDP -->
+  <!-- BAR-TH-104 -->
   <declaration scope="CDP">
-    <description><![CDATA[Coup de pouce Chauffage - Version en vigueur du 29/10/2022 au 06/10/2023]]></description>
-    <condition><![CDATA[code_fiche == 'BAR-TH-104' or code_fiche == 'BAR-TH-113' or code_fiche == 'BAR-TH-143' or code_fiche == 'BAR-TH-159']]></condition>
+    <description><![CDATA[Coup de pouce Chauffage - BAR-TH-104 - Version en vigueur du 29/10/2022 au 30/06/2023]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-104']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2022-10-29' and date_engagement <= '2023-10-06]]></condition>
+    <condition><![CDATA[date_engagement >= '2022-10-29' and date_engagement <= '2023-06-30]]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
       <condition><![CDATA[critere_equipement_existant == 1]]></condition>
       <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Fioul - Autres ménages]]></description>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Fioul - Ménages modestes]]></description>
@@ -6999,99 +6933,23 @@
       <definition variable="volume_cee_bonification"><![CDATA[769200]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Montant forfaitaire - Fioul - Autres ménages]]></description>
-      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
-      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
-      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Ménages modestes]]></description>
-      <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
-      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
-      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
-    </regle>
-    <regle>
       <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Autres ménages]]></description>
       <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
-      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
       <definition variable="volume_cee_bonification"><![CDATA[384600]]></definition>
     </regle>
-  </declaration>
-  <declaration scope="CDP">
-    <description><![CDATA[Coup de pouce Chauffage - Version en vigueur au 07/10/2023]]></description>
-    <condition><![CDATA[code_fiche == 'BAR-TH-113' or code_fiche == 'BAR-TH-159' or code_fiche == 'BAR-TH-171']]></condition>
-    <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2023-10-07']]></condition>
-    <regle>
-      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
-      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
-      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Fioul - Ménages modestes]]></description>
-      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
-      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
-      <definition variable="volume_cee_bonification"><![CDATA[769200]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Fioul - Autres ménages]]></description>
-      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
-      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
-      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
-    </regle>
     <regle>
       <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Ménages modestes]]></description>
       <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
       <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
       <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
     </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Autres ménages]]></description>
-      <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
-      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
-      <definition variable="volume_cee_bonification"><![CDATA[384600]]></definition>
-    </regle>
   </declaration>
+  <!-- BAR-TH-112 -->
   <declaration scope="CDP">
-    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-137]]></description>
-    <condition><![CDATA[code_fiche == 'BAR-TH-137']]></condition>
-    <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2022-10-29']]></condition>
-    <regle>
-      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
-      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
-      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Fioul - Ménages modestes]]></description>
-      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
-      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
-      <definition variable="volume_cee_bonification"><![CDATA[153800]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Fioul - Autres ménages]]></description>
-      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
-      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
-      <definition variable="volume_cee_bonification"><![CDATA[138500]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Ménages modestes]]></description>
-      <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
-      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
-      <definition variable="volume_cee_bonification"><![CDATA[107700]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Charbon ou gaz - Autres ménages]]></description>
-      <condition><![CDATA[energie_chauffage == 'CHARBON' or energie_chauffage == 'GAZ']]></condition>
-      <condition><![CDATA[categorie_ressource == 'INTERMEDIAIRE' or categorie_ressource == 'SUPERIEUR']]></condition>
-      <definition variable="volume_cee_bonification"><![CDATA[69200]]></definition>
-    </regle>
-  </declaration>
-  <declaration scope="CDP">
-    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-112]]></description>
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-112 - Version à partir du 07/10/2023]]></description>
     <condition><![CDATA[code_fiche == 'BAR-TH-112']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2022-10-29']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'un équipement de chauffage fonctionnant principalement au charbon]]></description>
       <condition><![CDATA[critere_equipement_existant == 1]]></condition>
@@ -7108,36 +6966,182 @@
       <definition variable="volume_cee_bonification"><![CDATA[76900]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-113 -->
   <declaration scope="CDP">
-    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-163]]></description>
-    <condition><![CDATA[code_fiche == 'BAR-TH-163']]></condition>
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-113 - Version à partir du 07/10/2023]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-113']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2022-10-29']]></condition>
-    <regle>
-      <description><![CDATA[Éligibilité]]></description>
-      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
-    </regle>
-    <regle>
-      <description><![CDATA[Montant forfaitaire - Ménages modestes]]></description>
-      <definition variable="volume_cee_bonification"><![CDATA[107700 * coefficient_modeste]]></definition>
-      <definition variable="volume_cee_bonification"><![CDATA[volume_cee_bonification + 69200 * (1 - coefficient_modeste)]]></definition>
-    </regle>
-  </declaration>
-  <declaration scope="CDP">
-    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-143 / BAR-TH-172]]></description>
-    <condition><![CDATA[code_fiche == 'BAR-TH-143' or code_fiche == 'BAR-TH-172']]></condition>
-    <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2023-10-07']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
       <condition><![CDATA[critere_equipement_existant == 1]]></condition>
       <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
     </regle>
     <regle>
-      <description><![CDATA[Montant forfaitaire]]></description>
+      <description><![CDATA[Coup de boost - Montant forfaitaire - Autres ménages]]></description>
+      <condition><![CDATA[date_engagement <= '2023-06-30']]></condition>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Coup de boost - Montant forfaitaire - Ménages modestes]]></description>
+      <condition><![CDATA[date_engagement <= '2023-06-30']]></condition>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[769200]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Autres ménages]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[384600]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Ménages modestes]]></description>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
+    </regle>
+  </declaration>
+  <!-- BAR-TH-137 -->
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-137 - Version à partir du 07/10/2023]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-137']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Coup de boost - Montant forfaitaire - Autres ménages]]></description>
+      <condition><![CDATA[date_engagement <= '2023-06-30']]></condition>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[138500]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Coup de boost - Montant forfaitaire - Ménages modestes]]></description>
+      <condition><![CDATA[date_engagement <= '2023-06-30']]></condition>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[153800]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Autres ménages]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[69200]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Ménages modestes]]></description>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[107700]]></definition>
+    </regle>
+  </declaration>
+  <!-- BAR-TH-143 -->
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-143 - Version à partir du 07/10/2023]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-143']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire ]]></description>
       <definition variable="volume_cee_bonification"><![CDATA[769200]]></definition>
     </regle>
   </declaration>
+  <!-- BAR-TH-159 -->
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-159 - Version à partir du 07/10/2023]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-159']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Coup de boost - Montant forfaitaire - Autres ménages]]></description>
+      <condition><![CDATA[date_engagement <= '2023-06-30']]></condition>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Coup de boost - Montant forfaitaire - Ménages modestes]]></description>
+      <condition><![CDATA[date_engagement <= '2023-06-30']]></condition>
+      <condition><![CDATA[energie_chauffage == 'FIOUL']]></condition>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[769200]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Autres ménages]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[384600]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Ménages modestes]]></description>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
+    </regle>
+  </declaration>
+  <!-- BAR-TH-163 -->
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-159 - Version à partir du 07/10/2023]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-163']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Autres ménages]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[69200]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Ménages modestes]]></description>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[107700]]></definition>
+    </regle>
+  </declaration>
+  <!-- BAR-TH-171 -->
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-171 - Version à partir du 07/10/2023]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-171']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Autres ménages]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[384600]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire - Ménages modestes]]></description>
+      <condition><![CDATA[categorie_ressource == 'TRES_MODESTE' or categorie_ressource == 'MODESTE']]></condition>
+      <definition variable="volume_cee_bonification"><![CDATA[615400]]></definition>
+    </regle>
+  </declaration>
+  <!-- BAR-TH-172 -->
+  <declaration scope="CDP">
+    <description><![CDATA[Coup de pouce Chauffage : BAR-TH-172 - Version à partir du 07/10/2023]]></description>
+    <condition><![CDATA[code_fiche == 'BAR-TH-172']]></condition>
+    <condition><![CDATA[code_bonification == 'CDP']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <regle>
+      <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
+      <condition><![CDATA[critere_equipement_existant == 1]]></condition>
+      <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
+    </regle>
+    <regle>
+      <description><![CDATA[Montant forfaitaire ]]></description>
+      <definition variable="volume_cee_bonification"><![CDATA[769200]]></definition>
+    </regle>
+  </declaration>
+  <!-- ZNI -->
   <declaration scope="*">
     <condition><![CDATA[date_engagement >= '2021-04-17']]></condition>
     <condition><![CDATA[bonification != 1 or code_bonification == 'ZNI']]></condition>
@@ -7153,6 +7157,7 @@
       <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 2]]></definition>
     </regle>
   </declaration>
+  <!-- CPE -->
   <declaration scope="*">
     <condition><![CDATA[secteur_application == 'BAR' or secteur_application == 'BAT']]></condition>
     <condition><![CDATA[date_engagement >= '2021-12-24']]></condition>
@@ -7177,6 +7182,7 @@
       <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * (1 + 2 * economies_energie_garanti)]]></definition>
     </regle>
   </declaration>
+  <!-- Prologue -->
   <declaration scope="*">
     <regle>
       <description><![CDATA[Bonification]]></description>

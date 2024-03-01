@@ -1,4 +1,4 @@
-# CeeConnect - Règles de simulation CEE
+# @ceeconnect/simulcee - Règles de simulation CEE
 
 Une approche **Rules as Code** inspirée de **Simul'Aid€s** et de **Catala** pour évaluer l'éligibilité et le volume de certificats d'économies d'énergie d'une opération standardisée d'économies d'énergie.
 

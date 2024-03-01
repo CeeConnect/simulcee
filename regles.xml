@@ -6445,7 +6445,7 @@
     <regle>
       <description><![CDATA[Éligibilité]]></description>
       <condition><![CDATA[type_batiment == 'MAISON' or type_batiment == 'APPARTEMENT' ]]></condition>
-      <condition><![CDATA[configuration_installation_chauffage == 'INDIVIDUEL']]></condition>
+      <!--<condition><![CDATA[configuration_installation_chauffage == 'INDIVIDUEL']]></condition>-->
       <condition><![CDATA[anciennete_batiment == 'EXISTANT']]></condition>
       <definition variable="eligibilite_fiche"><![CDATA[1]]></definition>
     </regle>

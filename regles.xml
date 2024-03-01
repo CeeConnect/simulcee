@@ -7153,7 +7153,7 @@
     <regle>
       <description><![CDATA[Bonification ZNI]]></description>
       <definition variable="bonification"><![CDATA[1]]></definition>
-      <definition variable="code_bonification"><![CDATA[ZNI]]></definition>
+      <definition variable="code_bonification"><![CDATA['ZNI']]></definition>
       <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * 2]]></definition>
     </regle>
   </declaration>
@@ -7171,14 +7171,14 @@
       <description><![CDATA[Bonification CPE - Durée de garantie >= 10 ans]]></description>
       <condition><![CDATA[duree_garantie >= 10]]></condition>
       <definition variable="bonification"><![CDATA[1]]></definition>
-      <definition variable="code_bonification"><![CDATA[CPE]]></definition>
+      <definition variable="code_bonification"><![CDATA['CPE']]></definition>
       <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * (1 + 3 * economies_energie_garanti)]]></definition>
     </regle>
     <regle>
       <description><![CDATA[Bonification CPE - Durée de garantie < 10 ans]]></description>
       <condition><![CDATA[duree_garantie < 10]]></condition>
       <definition variable="bonification"><![CDATA[1]]></definition>
-      <definition variable="code_bonification"><![CDATA[CPE]]></definition>
+      <definition variable="code_bonification"><![CDATA['CPE']]></definition>
       <definition variable="volume_cee_bonification"><![CDATA[volume_cee_fiche * (1 + 2 * economies_energie_garanti)]]></definition>
     </regle>
   </declaration>

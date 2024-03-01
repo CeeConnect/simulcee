@@ -6949,7 +6949,7 @@
     <description><![CDATA[Coup de pouce Chauffage : BAR-TH-112 - Version à partir du 07/10/2023]]></description>
     <condition><![CDATA[code_fiche == 'BAR-TH-112']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' and date_engagement <= '2025-12-31']]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'un équipement de chauffage fonctionnant principalement au charbon]]></description>
       <condition><![CDATA[critere_equipement_existant == 1]]></condition>
@@ -6971,7 +6971,7 @@
     <description><![CDATA[Coup de pouce Chauffage : BAR-TH-113 - Version à partir du 07/10/2023]]></description>
     <condition><![CDATA[code_fiche == 'BAR-TH-113']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' and date_engagement <= '2025-12-31']]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
       <condition><![CDATA[critere_equipement_existant == 1]]></condition>
@@ -7005,7 +7005,7 @@
     <description><![CDATA[Coup de pouce Chauffage : BAR-TH-137 - Version à partir du 07/10/2023]]></description>
     <condition><![CDATA[code_fiche == 'BAR-TH-137']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' and date_engagement <= '2025-12-31']]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
       <condition><![CDATA[critere_equipement_existant == 1]]></condition>
@@ -7039,7 +7039,7 @@
     <description><![CDATA[Coup de pouce Chauffage : BAR-TH-143 - Version à partir du 07/10/2023]]></description>
     <condition><![CDATA[code_fiche == 'BAR-TH-143']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' and date_engagement <= '2025-12-31']]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
       <condition><![CDATA[critere_equipement_existant == 1]]></condition>
@@ -7055,7 +7055,7 @@
     <description><![CDATA[Coup de pouce Chauffage : BAR-TH-159 - Version à partir du 07/10/2023]]></description>
     <condition><![CDATA[code_fiche == 'BAR-TH-159']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' and date_engagement <= '2025-12-31']]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
       <condition><![CDATA[critere_equipement_existant == 1]]></condition>
@@ -7089,7 +7089,7 @@
     <description><![CDATA[Coup de pouce Chauffage : BAR-TH-159 - Version à partir du 07/10/2023]]></description>
     <condition><![CDATA[code_fiche == 'BAR-TH-163']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' and date_engagement <= '2025-12-31']]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
       <definition variable="eligibilite_bonification"><![CDATA[1]]></definition>
@@ -7109,7 +7109,7 @@
     <description><![CDATA[Coup de pouce Chauffage : BAR-TH-171 - Version à partir du 07/10/2023]]></description>
     <condition><![CDATA[code_fiche == 'BAR-TH-171']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' and date_engagement <= '2025-12-31']]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
       <condition><![CDATA[critere_equipement_existant == 1]]></condition>
@@ -7130,7 +7130,7 @@
     <description><![CDATA[Coup de pouce Chauffage : BAR-TH-172 - Version à partir du 07/10/2023]]></description>
     <condition><![CDATA[code_fiche == 'BAR-TH-172']]></condition>
     <condition><![CDATA[code_bonification == 'CDP']]></condition>
-    <condition><![CDATA[date_engagement >= '2023-10-07' && date_engagement <= '2025-12-31']]></condition>
+    <condition><![CDATA[date_engagement >= '2023-10-07' and date_engagement <= '2025-12-31']]></condition>
     <regle>
       <description><![CDATA[L'équipement vient en remplacement d'une chaudière individuelle au fioul, au gaz ou au charbon]]></description>
       <condition><![CDATA[critere_equipement_existant == 1]]></condition>

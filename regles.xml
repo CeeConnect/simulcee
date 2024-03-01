@@ -6580,7 +6580,7 @@
     </regle>
     <regle>
       <description><![CDATA[Facteur correctif - Appartement : S < 35]]></description>
-      <condition><![CDATA[type_batiment == 'MAISON']]></condition>
+      <condition><![CDATA[type_batiment == 'APPARTEMENT']]></condition>
       <condition><![CDATA[surface_chauffee < 35]]></condition>
       <definition variable="volume_cee_fiche"><![CDATA[volume_cee_fiche * 0.5]]></definition>
     </regle>
